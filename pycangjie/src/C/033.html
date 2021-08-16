@@ -1,0 +1,1520 @@
+﻿<!DOCTYPE html>
+<meta http-equiv="Cache-Control" content="no-transform" /> 
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes" />
+<title>C | 倉頡大字典 | 倉頡輸入法</title>
+<meta name="title" content="C | 倉頡大字典 | 倉頡輸入法" />
+<meta property="og:title" content="C | 倉頡大字典 | 倉頡輸入法" />
+<meta property="og:image" content="https://kangxizidian.com/kx/2D8ED.png" />
+<meta property="og:description" content="C:" />
+<meta name="description" content="C:" />
+<meta property="og:url" content="//chinesecj.com/cjdict/index.php" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<body TOPMARGIN=0 BOTTOMMARGIN=0 LEFTMARGIN=0 RIGHTMARGIN=0 TEXT=000000 BGCOLOR=ffffff>
+
+
+<script data-ad-client="ca-pub-1984335192862106" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y0ECVEB3E9"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y0ECVEB3E9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Y0ECVEB3E9');
+</script>
+
+
+<style>
+/* C* */
+a {text-decoration:none}
+a:hover {color: blue;text-decoration:underline}
+
+@media (min-width:960px) {
+    body {width:100%; margin: auto;} 
+    .view_pc {} 
+    .view_mb {display:none;} 
+    .td1 {width:850px; } 
+    .td2 {width:350px; } 
+}
+
+
+@media(max-width:960px)
+{
+    body {width:100%; margin: auto;} 
+    .view_pc {display:none;} 
+    .view_mb {} 
+    .td1 {width:96%; } 
+    .td2 {display:none;}
+}
+
+font8  {font-size:   8x;font-family:Tahoma,'Microsoft Yahei','Microsoft Jhenghei',simsun,mingliu,CJKExtB-G,KaiXinSongB,'BabelStone Han',HanaminB,一点明体,'Times New Roman' ;}
+font10 {font-size: 10px;font-family:Tahoma,'Microsoft Yahei','Microsoft Jhenghei',simsun,mingliu,CJKExtB-G,KaiXinSongB,'BabelStone Han',HanaminB,一点明体,'Times New Roman' ;}
+font12 {font-size: 12px;font-family:Tahoma,'Microsoft Yahei','Microsoft Jhenghei',simsun,mingliu,CJKExtB-G,KaiXinSongB,'BabelStone Han',HanaminB,一点明体,'Times New Roman' ;}
+font14 {font-size: 14px;font-family:Tahoma,'Microsoft Yahei','Microsoft Jhenghei',simsun,mingliu,CJKExtB-G,KaiXinSongB,'BabelStone Han',HanaminB,一点明体,'Times New Roman' ;}
+font16 {font-size: 16px;font-family:Tahoma,'Microsoft Yahei','Microsoft Jhenghei',simsun,mingliu,CJKExtB-G,KaiXinSongB,'BabelStone Han',HanaminB,一点明体,'Times New Roman' ;}
+font18 {font-size: 18px;font-family:Tahoma,'Microsoft Yahei','Microsoft Jhenghei',simsun,mingliu,CJKExtB-G,KaiXinSongB,'BabelStone Han',HanaminB,一点明体,'Times New Roman' ;}
+font19 {font-size: 19px;font-family:Tahoma,'Microsoft Yahei','Microsoft Jhenghei',simsun,mingliu,CJKExtB-G,KaiXinSongB,'BabelStone Han',HanaminB,一点明体,'Times New Roman' ;}
+font20 {font-size: 20px;font-family:Tahoma,'Microsoft Yahei','Microsoft Jhenghei',simsun,mingliu,CJKExtB-G,KaiXinSongB,'BabelStone Han',HanaminB,一点明体,'Times New Roman' ;}
+font22 {font-size: 22px;font-family:Tahoma,'Microsoft Yahei','Microsoft Jhenghei',simsun,mingliu,CJKExtB-G,KaiXinSongB,'BabelStone Han',HanaminB,一点明体,'Times New Roman' ;}
+font24 {font-size: 24px;font-family:Tahoma,'Microsoft Yahei','Microsoft Jhenghei',simsun,mingliu,CJKExtB-G,KaiXinSongB,'BabelStone Han',HanaminB,一点明体,'Times New Roman' ;}
+font26 {font-size: 26px;font-family:Tahoma,'Microsoft Yahei','Microsoft Jhenghei',simsun,mingliu,CJKExtB-G,KaiXinSongB,'BabelStone Han',HanaminB,一点明体,'Times New Roman' ;}
+font28 {font-size: 28px;font-family:Tahoma,'Microsoft Yahei','Microsoft Jhenghei',simsun,mingliu,CJKExtB-G,KaiXinSongB,'BabelStone Han',HanaminB,一点明体,'Times New Roman' ;}
+font30 {font-size: 30px;font-family:Tahoma,'Microsoft Yahei','Microsoft Jhenghei',simsun,mingliu,CJKExtB-G,KaiXinSongB,'BabelStone Han',HanaminB,一点明体,'Times New Roman' ;}
+font32 {font-size: 32px;font-family:Tahoma,'Microsoft Yahei','Microsoft Jhenghei',simsun,mingliu,CJKExtB-G,KaiXinSongB,'BabelStone Han',HanaminB,一点明体,'Times New Roman' ;}
+font34 {font-size: 34px;font-family:Tahoma,'Microsoft Yahei','Microsoft Jhenghei',simsun,mingliu,CJKExtB-G,KaiXinSongB,'BabelStone Han',HanaminB,一点明体,'Times New Roman' ;}
+font36 {font-size: 36px;line-height: 40px;font-family:Tahoma,'Microsoft Yahei','Microsoft Jhenghei',simsun,mingliu,CJKExtB-G,KaiXinSongB,'BabelStone Han',HanaminB,一点明体,'Times New Roman' ;}
+font38 {font-size: 38px;font-family:Tahoma,'Microsoft Yahei','Microsoft Jhenghei',simsun,mingliu,CJKExtB-G,KaiXinSongB,'BabelStone Han',HanaminB,一点明体,'Times New Roman' ;}
+font40 {font-size: 40px;font-family:Tahoma,'Microsoft Yahei','Microsoft Jhenghei',simsun,mingliu,CJKExtB-G,KaiXinSongB,'BabelStone Han',HanaminB,一点明体,'Times New Roman' ;}
+font42 {font-size: 42px;font-family:Tahoma,'Microsoft Yahei','Microsoft Jhenghei',simsun,mingliu,CJKExtB-G,KaiXinSongB,'BabelStone Han',HanaminB,一点明体,'Times New Roman' ;}
+font46 {font-size: 46px;font-family:Tahoma,'Microsoft Yahei','Microsoft Jhenghei',simsun,mingliu,CJKExtB-G,KaiXinSongB,'BabelStone Han',HanaminB,一点明体,'Times New Roman' ;}
+font48 {font-size: 48px;font-family:Tahoma,'Microsoft Yahei','Microsoft Jhenghei',simsun,mingliu,CJKExtB-G,KaiXinSongB,'BabelStone Han',HanaminB,一点明体,'Times New Roman' ;}
+font50 {font-size: 50px;font-family:Tahoma,'Microsoft Yahei','Microsoft Jhenghei',simsun,mingliu,CJKExtB-G,KaiXinSongB,'BabelStone Han',HanaminB,一点明体,'Times New Roman' ;}
+font60 {font-size: 60px;font-family:Tahoma,'Microsoft Yahei','Microsoft Jhenghei',simsun,mingliu,CJKExtB-G,KaiXinSongB,'BabelStone Han',HanaminB,一点明体,'Times New Roman' ;}
+font72 {font-size: 72px;font-family:Tahoma,'Microsoft Yahei','Microsoft Jhenghei',simsun,mingliu,CJKExtB-G,KaiXinSongB,'BabelStone Han',HanaminB,一点明体,'Times New Roman' ;}
+</style>
+
+<table BORDER=0 CELLSPACING=0 CELLPADDING=0 COLS=1 WIDTH=100% HEIGHT=25 BGCOLOR=dbedfe>
+<tr><td align=center>
+<table BORDER=0 CELLSPACING=0  width=99% >
+<tr><td align=center>
+<table border=0 width=100%><tr><td width=78% align=center>
+
+<font24><font color=red>倉頡之友 ．自學倉頡輸入法</a></font28><br>
+<font16>
+<a href=https://www.chinesecj.com/index.php>主頁</a> |
+<a href=https://www.chinesecj.com/forum/forum.php?mod=viewthread&tid=798>最新消息</a> |
+<a href=https://www.chinesecj.com/forum/forum.php?mod=viewthread&tid=195357>自學課程</a> |
+<a href=https://www.chinesecj.com/cjdict/ title=倉頡大字典>倉頡字典</a><a class="view_pc"> |</a><a class="view_mb"><br></a>
+<!--<a href=/newsoftware/>下載</a> |</font>-->
+<a href=https://www.chinesecj.com/forum/forum.php?mod=viewthread&tid=195320>《<font color=red>倉頡平台2022</font>》</a> |
+<a href=https://www.chinesecj.com/forum/>論壇</a> |
+<a href=https://www.chinesecj.com/ime/>網上輸入法</a><a class="view_pc"> |</a><a class="view_mb"><br></a>
+<a href=https://www.chinesecj.com/unihan.php>Unicode九萬漢字</a> |
+<!--<a href=/faq/>常見問題</a> |</font>
+<a href=/data/>友站</a> |
+<a href=/data/index2.php>資料</a> |-->
+<a href=https://www.chinesecj.com/forum/forum.php?mod=redirect&goto=findpost&ptid=798&pid=29299>聯絡</a> |
+<a href=https://www.chinesecj.com/forum/forum.php?mod=viewthread&tid=2061><font color=red><b>捐助本站</a></b>
+
+
+
+</font16>
+</td></tr></table>
+</td></tr>
+</table>
+</td></tr></table>
+
+<table BORDER=0 CELLSPACING=0 CELLPADDING=0 COLS=1 WIDTH=100% BGCOLOR=000000 ><tr><td><table BORDER=0 CELLSPACING=0 CELLPADDING=0 HEIGHT=1><tr><td></td></tr></table></td></tr></table>
+<table BORDER=0 CELLSPACING=0 CELLPADDING=0 COLS=1 WIDTH=100% BGCOLOR=999999 ><tr><td><table BORDER=0 CELLSPACING=0 CELLPADDING=0 HEIGHT=1><tr><td></td></tr></table></td></tr></table>
+<table BORDER=0 CELLSPACING=0 CELLPADDING=0 COLS=1 WIDTH=100% BGCOLOR=c0c0c0 ><tr><td><table BORDER=0 CELLSPACING=0 CELLPADDING=0 HEIGHT=1><tr><td></td></tr></table></td></tr></table>
+
+<!--
+<div class="view_pc"></div>
+<div class="view_mb"></div>
+-->
+
+<center>
+
+
+<center><br>
+<font28><font color=red>
+倉頡大字典
+</font28></font><font14>測試版<br>
+（本倉頡字典收錄九萬漢字，任何反饋或建議請至<a href=https://www.chinesecj.com/forum/forum.php?mod=viewthread&tid=195356>論壇留言</a>，謝謝）</font14>
+</center>
+
+﻿<FORM Action=/cjdict/index.php Method=get>
+<center>
+
+<font20>
+<a href='/cjdict/index.php?stype=Word&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&sword=A*'>《倉頡／漢字檢索》</a>
+<a href='/cjdict/index.php?stype=Radical&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&sword=一'>《部首檢索》</a>
+<a class='view_mb'><br></a>
+<a href='/cjdict/index.php?stype=TotalStk&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&sword=36'>《筆畫檢索》</a>
+<a href='/cjdict/index.php?stype=Pinyin&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&sword=long'>《拼音檢索》</a>
+<a class='view_mb'><br></a>
+<a href='/cjdict/index.php?stype=Zhuyin&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&sword=ㄌㄨㄥ'>《注音檢索》</a>
+<a href='/cjdict/index.php?stype=Unicode&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&sword=CJ'>《Unicode檢索》</a>
+</font20><p >
+
+<TABLE Border=0 cellpadding=0 cellspacing=0 bgcolor=000000 class='td1'>
+<tr><td>
+<TABLE Border=0 cellpadding=2 cellspacing=2 width=100%>
+<tr bgcolor=ffffcc><td valign=top align=center><font18>
+
+選項：<select name='stype' style="font-family: 'Microsoft YaHei',CJKExtB-G,simsun,mingliu,'Time New Roman'; font-size: 18px">
+<option value='Word'     selected placeholder='可搜單字或多字……'>倉頡碼／漢字</option>
+<!--<option value='Text'     >全文</option><br>-->
+<option value='TotalStk'  placeholder='請輸入數字……'>筆畫</option><br>
+<option value='Radical'  >部首</option><br>
+<option value='Pinyin'   >拼音</option><br>
+<option value='Zhuyin'   >注音</option><br>
+<option value='Unicode'   >Unicode</option><br></select>
+
+
+<INPUT TYPE=type Name=sword value="C*" style="font-family: 'Microsoft YaHei',CJKExtB-G,simsun,mingliu,'Time New Roman'; font-size: 18px" MAXLENGTH='30' size=10">
+<a class='view_mb'><br></a>
+<input type='radio' name='detail' value='y' checked>完整版
+<input type='radio' name='detail' value='n' >字頭版
+<br>
+字源：
+<label for='sGF'>繁</label><input type='checkbox' name='sB5' value='y' >
+<label for='sGF'>簡</label><input type='checkbox' name='sGF' value='y' >
+<label for='sG'>中</label><input type='checkbox' name='sG'  value='y' checked>
+<label for='sT'>台</label><input type='checkbox' name='sT'  value='y' >
+<label for='sH'>港</label><input type='checkbox' name='sH'  value='y' >
+<label for='sM'>澳</label><input type='checkbox' name='sM'  value='y' >
+<label for='sJ'>日</label><input type='checkbox' name='sJ'  value='y' >
+<label for='sK'>韓</label><input type='checkbox' name='sK'  value='y' >
+<label for='sKP'>朝</label><input type='checkbox' name='sKP' value='y' >
+<label for='sV'>越</label><input type='checkbox' name='sV'  value='y' >
+
+
+
+
+<INPUT Type=Submit Value='檢 索' style="font-family: 'Microsoft YaHei',CJKExtB-G,simsun,mingliu,'Time New Roman'; font-size: 18px" >
+</td></tr></table></td></tr></table></form><TABLE Border=0 cellpadding=0 cellspacing=0 class='td1'>
+<tr><td align=center>
+<font16>《倉頡碼／漢字》檢索請輸入倉頡英文字母或漢字，支持*號模糊查尋及字詞查尋。<br>其他檢索請輸入相關的筆畫數、拼音、注音、unicode 等查尋。</font16>
+</td></tr></table>
+
+﻿
+
+<center><font24>《<font color=red>倉頡檢索</font>》</font36></center><p>
+
+<table class='td1'>
+<tr><td valign=top  align=center><font18>
+
+<a href=index.php?stype=Word&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&sword=A*>日</a>
+<a href=index.php?stype=Word&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&sword=B*>月</a>
+<a href=index.php?stype=Word&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&sword=C*>金</a>
+<a href=index.php?stype=Word&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&sword=D*>木</a>
+<a href=index.php?stype=Word&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&sword=E*>水</a>
+<a href=index.php?stype=Word&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&sword=F*>火</a>
+<a href=index.php?stype=Word&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&sword=G*>土</a>　
+<a href=index.php?stype=Word&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&sword=H*>斜</a>
+<a href=index.php?stype=Word&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&sword=I*>點</a>
+<a href=index.php?stype=Word&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&sword=J*>交</a>
+<a href=index.php?stype=Word&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&sword=K*>叉</a>
+<a href=index.php?stype=Word&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&sword=L*>縱</a>
+<a href=index.php?stype=Word&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&sword=M*>横</a>
+<a href=index.php?stype=Word&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&sword=N*>鈎</a>　
+<a href=index.php?stype=Word&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&sword=O*>人</a>
+<a href=index.php?stype=Word&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&sword=P*>心</a>
+<a href=index.php?stype=Word&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&sword=Q*>手</a>
+<a href=index.php?stype=Word&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&sword=R*>口</a>　
+<a href=index.php?stype=Word&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&sword=S*>側</a>
+<a href=index.php?stype=Word&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&sword=T*>并</a>
+<a href=index.php?stype=Word&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&sword=U*>仰</a>
+<a href=index.php?stype=Word&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&sword=V*>紐</a>
+<a href=index.php?stype=Word&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&sword=W*>方</a>
+<a href=index.php?stype=Word&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&sword=Y*>卜</a>
+<br>
+<a href=index.php?stype=Word&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&sword=A*>Ａ</a>
+<a href=index.php?stype=Word&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&sword=B*>Ｂ</a>
+<a href=index.php?stype=Word&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&sword=C*>Ｃ</a>
+<a href=index.php?stype=Word&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&sword=D*>Ｄ</a>
+<a href=index.php?stype=Word&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&sword=E*>Ｅ</a>
+<a href=index.php?stype=Word&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&sword=F*>Ｆ</a>
+<a href=index.php?stype=Word&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&sword=G*>Ｇ</a>　
+
+<a href=index.php?stype=Word&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&sword=H*>Ｈ</a>
+<a href=index.php?stype=Word&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&sword=I*>Ｉ</a>
+<a href=index.php?stype=Word&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&sword=J*>Ｊ</a>
+<a href=index.php?stype=Word&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&sword=K*>Ｋ</a>
+<a href=index.php?stype=Word&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&sword=L*>Ｌ</a>
+<a href=index.php?stype=Word&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&sword=M*>Ｍ</a>
+<a href=index.php?stype=Word&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&sword=N*>Ｎ</a>　
+
+<a href=index.php?stype=Word&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&sword=O*>Ｏ</a>
+<a href=index.php?stype=Word&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&sword=P*>Ｐ</a>
+<a href=index.php?stype=Word&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&sword=Q*>Ｑ</a>
+<a href=index.php?stype=Word&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&sword=R*>Ｒ</a>　
+
+<a href=index.php?stype=Word&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&sword=S*>Ｓ</a>
+<a href=index.php?stype=Word&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&sword=T*>Ｔ</a>
+<a href=index.php?stype=Word&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&sword=U*>Ｕ</a>
+<a href=index.php?stype=Word&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&sword=V*>Ｖ</a>
+<a href=index.php?stype=Word&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&sword=W*>Ｗ</a>
+<a href=index.php?stype=Word&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&sword=Y*>Ｙ</a>
+
+
+
+</font19>
+</td></tr>
+</table>
+<hr size=1  class='td1'> 
+</center>
+
+   
+	
+
+
+
+
+
+
+
+
+
+<center><font24>《<font color=blue>C</font>》</font24></center><p>
+<table border=1 bgcolor=eeeeee  CELLSPACING=0 CELLPADDING=10 class='td1'><tr><td>
+<table border=0 bgcolor=eeeeee  CELLSPACING=0 CELLPADDING=10 width=100%>
+<tr><TD bgcolor=eeeeee  align=left valign=top class='td1'>
+
+<table border=0>
+<tr><td valign=bottom><a href="https://kangxizidian.com/kxhans/毤" target=_new><img src=https://kangxizidian.com/kx/6BE4.png width=64 border=1 style='border-color:#777777' Title='康熙字體'></a> &nbsp;&nbsp; 
+<img src=/cjdict/img/t/6BE4.png width=64 border=1 style='border-color:#777777' Title='台灣：繁體漢字參考字形'> &nbsp;&nbsp; 
+<img src=/cjdict/img/g/6BE4.png width=64 border=1 style='border-color:#777777' Title='中國：簡化漢字參考字形'> &nbsp;&nbsp; 
+
+
+</td><td valign=bottom>
+<div class='view_pc'>
+<font48><font  style="font-family: 'Microsoft JhengHei',mingliu,pmingliu,mingliu-ExtB,pmingliu-ExtB,TH-Tshyn-P2,CJKExtB-G">毤</font></font48>&nbsp;&nbsp; 
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">毤</font></font46>
+</div>
+<div class='view_mb'>
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">毤</font></font46>
+</div>
+</td><td valign=bottom></td></tr></table>
+<br><font18><font color=#663300>
+
+　倉頡五代：CUHQU  <br>　　　部首：<a href='/cjdict/index.php?stype=Radical&detail=n&sword=毛'>毛</a> 
+<!--　部首筆畫：4-->
+　　部外筆畫：6
+<a class='view_mb'><br></a>
+　　總筆畫：<a href='/cjdict/index.php?stype=TotalStk&detail=n&sword=10'>10</a><br>　　　拼音：<a href='/cjdict/index.php?stype=Pinyin&detail=n&sword=tuò'>tuò</a> <br>　　　注音：<a href='/cjdict/index.php?stype=Zhuyin&detail=n&sword=ㄊㄨㄛˋ'>ㄊㄨㄛˋ</a> <br>
+　　　字典：<a href="https://kangxizidian.com/kxhans/毤" target=_new>康熙字典</a><br>
+　　統一碼：6BE4<br>
+統一碼字集：<a href='/cjdict/index.php?stype=Unicode&detail=n&sword=CJK'>CJK</a><br>
+統一碼字源：《<a title='台灣：大五碼 BIG 5，收錄 13051 個漢字，包含常用、次常用國字標準字體表。'>繁</a>》《<a title='GE-3E6B'>中</a>》《<a title='T2-3022'>台</a>》《<a title='HB2-D1FE'>港</a>》《<a title='K2-3F24'>韓</a>》《<a title='KP1-4FF9'>朝</a>》
+<hr size=1  color=999999>
+</td>
+<tr><TD bgcolor=eeeeee  align=left valign=top class='td1'>
+
+<table border=0>
+<tr><td valign=bottom>
+<img src=/cjdict/img/t/23B86.png width=64 border=1 style='border-color:#777777' Title='台灣：繁體漢字參考字形'> &nbsp;&nbsp; 
+<img src=/cjdict/img/g/23B86.png width=64 border=1 style='border-color:#777777' Title='中國：簡化漢字參考字形'> &nbsp;&nbsp; 
+
+
+</td><td valign=bottom>
+<div class='view_pc'>
+<font48><font  style="font-family: 'Microsoft JhengHei',mingliu,pmingliu,mingliu-ExtB,pmingliu-ExtB,TH-Tshyn-P2,CJKExtB-G">𣮆</font></font48>&nbsp;&nbsp; 
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">𣮆</font></font46>
+</div>
+<div class='view_mb'>
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">𣮆</font></font46>
+</div>
+</td><td valign=bottom></td></tr></table>
+<br><font18><font color=#663300>
+
+　倉頡五代：CUHQU  <br>　　　部首：<a href='/cjdict/index.php?stype=Radical&detail=n&sword=毛'>毛</a> 
+<!--　部首筆畫：4-->
+　　部外筆畫：7
+<a class='view_mb'><br></a>
+　　總筆畫：<a href='/cjdict/index.php?stype=TotalStk&detail=n&sword=11'>11</a><br>　　　拼音：<a href='/cjdict/index.php?stype=Pinyin&detail=n&sword=tuò'>tuò</a> <br>　　　注音：<a href='/cjdict/index.php?stype=Zhuyin&detail=n&sword=ㄊㄨㄛˋ'>ㄊㄨㄛˋ</a> <br>
+　　　字典：<a href="https://kangxizidian.com/kxhans/𣮆" target=_new>康熙字典</a><br>
+　　統一碼：23B86<br>
+統一碼字集：<a href='/cjdict/index.php?stype=Unicode&detail=n&sword=CJK_EB'>CJK_EB</a><br>
+統一碼字源：《<a title='GHZ-80026.23'>中</a>》
+<hr size=1  color=999999>
+</td>
+<tr><TD bgcolor=eeeeee  align=left valign=top class='td1'>
+
+<table border=0>
+<tr><td valign=bottom>
+<img src=/cjdict/img/t/21BE0.png width=64 border=1 style='border-color:#777777' Title='台灣：繁體漢字參考字形'> &nbsp;&nbsp; 
+<img src=/cjdict/img/g/21BE0.png width=64 border=1 style='border-color:#777777' Title='中國：簡化漢字參考字形'> &nbsp;&nbsp; 
+
+
+</td><td valign=bottom>
+<div class='view_pc'>
+<font48><font  style="font-family: 'Microsoft JhengHei',mingliu,pmingliu,mingliu-ExtB,pmingliu-ExtB,TH-Tshyn-P2,CJKExtB-G">𡯠</font></font48>&nbsp;&nbsp; 
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">𡯠</font></font46>
+</div>
+<div class='view_mb'>
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">𡯠</font></font46>
+</div>
+</td><td valign=bottom></td></tr></table>
+<br><font18><font color=#663300>
+
+　倉頡五代：CUJC  <br>　　　部首：<a href='/cjdict/index.php?stype=Radical&detail=n&sword=尢'>尢</a> 
+<!--　部首筆畫：3-->
+　　部外筆畫：5
+<a class='view_mb'><br></a>
+　　總筆畫：<a href='/cjdict/index.php?stype=TotalStk&detail=n&sword=8'>8</a><br>
+　　　字典：<a href="https://kangxizidian.com/kxhans/𡯠" target=_new>康熙字典</a><br>
+　　統一碼：21BE0<br>
+統一碼字集：<a href='/cjdict/index.php?stype=Unicode&detail=n&sword=CJK_EB'>CJK_EB</a><br>
+統一碼字源：《<a title='GHZ-10553.19'>中</a>》《<a title='T6-3035'>台</a>》
+<hr size=1  color=999999>
+</td>
+<tr><TD bgcolor=eeeeee  align=left valign=top class='td1'>
+
+<table border=0>
+<tr><td valign=bottom><a href="https://kangxizidian.com/kxhans/𨥍" target=_new><img src=https://kangxizidian.com/kx/2894D.png width=64 border=1 style='border-color:#777777' Title='康熙字體'></a> &nbsp;&nbsp; 
+<img src=/cjdict/img/t/2894D.png width=64 border=1 style='border-color:#777777' Title='台灣：繁體漢字參考字形'> &nbsp;&nbsp; 
+<img src=/cjdict/img/g/2894D.png width=64 border=1 style='border-color:#777777' Title='中國：簡化漢字參考字形'> &nbsp;&nbsp; 
+
+
+</td><td valign=bottom>
+<div class='view_pc'>
+<font48><font  style="font-family: 'Microsoft JhengHei',mingliu,pmingliu,mingliu-ExtB,pmingliu-ExtB,TH-Tshyn-P2,CJKExtB-G">𨥍</font></font48>&nbsp;&nbsp; 
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">𨥍</font></font46>
+</div>
+<div class='view_mb'>
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">𨥍</font></font46>
+</div>
+</td><td valign=bottom></td></tr></table>
+<br><font18><font color=#663300>
+
+　倉頡五代：CUK  <br>　　　部首：<a href='/cjdict/index.php?stype=Radical&detail=n&sword=金'>金</a> 
+<!--　部首筆畫：8-->
+　　部外筆畫：4
+<a class='view_mb'><br></a>
+　　總筆畫：<a href='/cjdict/index.php?stype=TotalStk&detail=n&sword=12'>12</a><br>　　　拼音：<a href='/cjdict/index.php?stype=Pinyin&detail=n&sword=xiōng'>xiōng</a> <br>　　　注音：<a href='/cjdict/index.php?stype=Zhuyin&detail=n&sword=ㄒㄩㄥ'>ㄒㄩㄥ</a> <br>
+　　　字典：<a href="https://kangxizidian.com/kxhans/𨥍" target=_new>康熙字典</a><br>
+　　統一碼：2894D<br>
+統一碼字集：<a href='/cjdict/index.php?stype=Unicode&detail=n&sword=CJK_EB'>CJK_EB</a><br>
+統一碼字源：《<a title='GKX-1299.13'>中</a>》《<a title='T6-4F71'>台</a>》
+<hr size=1  color=999999>
+</td>
+<tr><TD bgcolor=eeeeee  align=left valign=top class='td1'>
+
+<table border=0>
+<tr><td valign=bottom>
+<img src=/cjdict/img/t/289D3.png width=64 border=1 style='border-color:#777777' Title='台灣：繁體漢字參考字形'> &nbsp;&nbsp; 
+<img src=/cjdict/img/g/289D3.png width=64 border=1 style='border-color:#777777' Title='中國：簡化漢字參考字形'> &nbsp;&nbsp; 
+
+
+</td><td valign=bottom>
+<div class='view_pc'>
+<font48><font  style="font-family: 'Microsoft JhengHei',mingliu,pmingliu,mingliu-ExtB,pmingliu-ExtB,TH-Tshyn-P2,CJKExtB-G">𨧓</font></font48>&nbsp;&nbsp; 
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">𨧓</font></font46>
+</div>
+<div class='view_mb'>
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">𨧓</font></font46>
+</div>
+</td><td valign=bottom></td></tr></table>
+<br><font18><font color=#663300>
+
+　倉頡五代：CUKG  <br>　　　部首：<a href='/cjdict/index.php?stype=Radical&detail=n&sword=金'>金</a> 
+<!--　部首筆畫：8-->
+　　部外筆畫：7
+<a class='view_mb'><br></a>
+　　總筆畫：<a href='/cjdict/index.php?stype=TotalStk&detail=n&sword=15'>15</a><br>
+　　　字典：<a href="https://kangxizidian.com/kxhans/𨧓" target=_new>康熙字典</a><br>
+　　統一碼：289D3<br>
+統一碼字集：<a href='/cjdict/index.php?stype=Unicode&detail=n&sword=CJK_EB'>CJK_EB</a><br>
+統一碼字源：《<a title='GHZ-64210.05'>中</a>》《<a title='T7-2A3F'>台</a>》
+<hr size=1  color=999999>
+</td>
+<tr><TD bgcolor=eeeeee  align=left valign=top class='td1'>
+
+<table border=0>
+<tr><td valign=bottom><a href="https://kangxizidian.com/kxhans/𡯛" target=_new><img src=https://kangxizidian.com/kx/21BDB.png width=64 border=1 style='border-color:#777777' Title='康熙字體'></a> &nbsp;&nbsp; 
+<img src=/cjdict/img/t/21BDB.png width=64 border=1 style='border-color:#777777' Title='台灣：繁體漢字參考字形'> &nbsp;&nbsp; 
+<img src=/cjdict/img/g/21BDB.png width=64 border=1 style='border-color:#777777' Title='中國：簡化漢字參考字形'> &nbsp;&nbsp; 
+
+
+</td><td valign=bottom>
+<div class='view_pc'>
+<font48><font  style="font-family: 'Microsoft JhengHei',mingliu,pmingliu,mingliu-ExtB,pmingliu-ExtB,TH-Tshyn-P2,CJKExtB-G">𡯛</font></font48>&nbsp;&nbsp; 
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">𡯛</font></font46>
+</div>
+<div class='view_mb'>
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">𡯛</font></font46>
+</div>
+</td><td valign=bottom></td></tr></table>
+<br><font18><font color=#663300>
+
+　倉頡五代：CUKM  <br>　　　部首：<a href='/cjdict/index.php?stype=Radical&detail=n&sword=尢'>尢</a> 
+<!--　部首筆畫：3-->
+　　部外筆畫：5
+<a class='view_mb'><br></a>
+　　總筆畫：<a href='/cjdict/index.php?stype=TotalStk&detail=n&sword=8'>8</a><br>
+　　　字典：<a href="https://kangxizidian.com/kxhans/𡯛" target=_new>康熙字典</a><br>
+　　統一碼：21BDB<br>
+統一碼字集：<a href='/cjdict/index.php?stype=Unicode&detail=n&sword=CJK_EB'>CJK_EB</a><br>
+統一碼字源：《<a title='GKX-0298.19'>中</a>》《<a title='T6-3034'>台</a>》
+<hr size=1  color=999999>
+</td>
+<tr><TD bgcolor=eeeeee  align=left valign=top class='td1'>
+
+<table border=0>
+<tr><td valign=bottom><a href="https://kangxizidian.com/kxhans/銟" target=_new><img src=https://kangxizidian.com/kx/929F.png width=64 border=1 style='border-color:#777777' Title='康熙字體'></a> &nbsp;&nbsp; 
+<img src=/cjdict/img/t/929F.png width=64 border=1 style='border-color:#777777' Title='台灣：繁體漢字參考字形'> &nbsp;&nbsp; 
+<img src=/cjdict/img/g/929F.png width=64 border=1 style='border-color:#777777' Title='中國：簡化漢字參考字形'> &nbsp;&nbsp; 
+
+
+</td><td valign=bottom>
+<div class='view_pc'>
+<font48><font  style="font-family: 'Microsoft JhengHei',mingliu,pmingliu,mingliu-ExtB,pmingliu-ExtB,TH-Tshyn-P2,CJKExtB-G">銟</font></font48>&nbsp;&nbsp; 
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">銟</font></font46>
+</div>
+<div class='view_mb'>
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">銟</font></font46>
+</div>
+</td><td valign=bottom></td></tr></table>
+<br><font18><font color=#663300>
+
+　倉頡五代：CULB  <br>　　　部首：<a href='/cjdict/index.php?stype=Radical&detail=n&sword=金'>金</a> 
+<!--　部首筆畫：8-->
+　　部外筆畫：6
+<a class='view_mb'><br></a>
+　　總筆畫：<a href='/cjdict/index.php?stype=TotalStk&detail=n&sword=14'>14</a><br>　　　拼音：<a href='/cjdict/index.php?stype=Pinyin&detail=n&sword=chā'>chā</a> <br>　　　注音：<a href='/cjdict/index.php?stype=Zhuyin&detail=n&sword=ㄔㄚ'>ㄔㄚ</a> <br>
+　　　字典：<a href="https://kangxizidian.com/kxhans/銟" target=_new>康熙字典</a><br>
+　　統一碼：929F<br>
+統一碼字集：<a href='/cjdict/index.php?stype=Unicode&detail=n&sword=CJK'>CJK</a><br>
+統一碼字源：《<a title='GE-5075'>中</a>》《<a title='T4-4777'>台</a>》《<a title='J14-7A6E'>日</a>》
+<hr size=1  color=999999>
+</td>
+<tr><TD bgcolor=eeeeee  align=left valign=top class='td1'>
+
+<table border=0>
+<tr><td valign=bottom>
+<img src=/cjdict/img/t/28A6A.png width=64 border=1 style='border-color:#777777' Title='台灣：繁體漢字參考字形'> &nbsp;&nbsp; 
+<img src=/cjdict/img/g/28A6A.png width=64 border=1 style='border-color:#777777' Title='中國：簡化漢字參考字形'> &nbsp;&nbsp; 
+
+
+</td><td valign=bottom>
+<div class='view_pc'>
+<font48><font  style="font-family: 'Microsoft JhengHei',mingliu,pmingliu,mingliu-ExtB,pmingliu-ExtB,TH-Tshyn-P2,CJKExtB-G">𨩪</font></font48>&nbsp;&nbsp; 
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">𨩪</font></font46>
+</div>
+<div class='view_mb'>
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">𨩪</font></font46>
+</div>
+</td><td valign=bottom></td></tr></table>
+<br><font18><font color=#663300>
+
+　倉頡五代：CULI  <br>　　　部首：<a href='/cjdict/index.php?stype=Radical&detail=n&sword=金'>金</a> 
+<!--　部首筆畫：8-->
+　　部外筆畫：9
+<a class='view_mb'><br></a>
+　　總筆畫：<a href='/cjdict/index.php?stype=TotalStk&detail=n&sword=17'>17</a><br>　　　拼音：<a href='/cjdict/index.php?stype=Pinyin&detail=n&sword=chǎn'>chǎn</a> <br>　　　注音：<a href='/cjdict/index.php?stype=Zhuyin&detail=n&sword=ㄔㄢˇ'>ㄔㄢˇ</a> <br>
+　　　字典：<a href="https://kangxizidian.com/kxhans/𨩪" target=_new>康熙字典</a><br>
+　　統一碼：28A6A<br>
+統一碼字集：<a href='/cjdict/index.php?stype=Unicode&detail=n&sword=CJK_EB'>CJK_EB</a><br>
+統一碼字源：《<a title='GHZ-64231.12'>中</a>》
+<hr size=1  color=999999>
+</td>
+<tr><TD bgcolor=eeeeee  align=left valign=top class='td1'>
+
+<table border=0>
+<tr><td valign=bottom>
+<img src=/cjdict/img/t/2BD52.png width=64 border=1 style='border-color:#777777' Title='台灣：繁體漢字參考字形'> &nbsp;&nbsp; 
+<img src=/cjdict/img/g/2BD52.png width=64 border=1 style='border-color:#777777' Title='中國：簡化漢字參考字形'> &nbsp;&nbsp; 
+
+
+</td><td valign=bottom>
+<div class='view_pc'>
+<font48><font  style="font-family: 'Microsoft JhengHei',mingliu,pmingliu,mingliu-ExtB,pmingliu-ExtB,TH-Tshyn-P2,CJKExtB-G">𫵒</font></font48>&nbsp;&nbsp; 
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">𫵒</font></font46>
+</div>
+<div class='view_mb'>
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">𫵒</font></font46>
+</div>
+</td><td valign=bottom></td></tr></table>
+<br><font18><font color=#663300>
+
+　倉頡五代：CULMC  <br>　　　部首：<a href='/cjdict/index.php?stype=Radical&detail=n&sword=尢'>尢</a> 
+<!--　部首筆畫：4-->
+　　部外筆畫：12
+<a class='view_mb'><br></a>
+　　總筆畫：<a href='/cjdict/index.php?stype=TotalStk&detail=n&sword=16'>16</a><br>
+　　　字典：<a href="https://kangxizidian.com/kxhans/𫵒" target=_new>康熙字典</a><br>
+　　統一碼：2BD52<br>
+統一碼字集：<a href='/cjdict/index.php?stype=Unicode&detail=n&sword=CJK_EE'>CJK_EE</a><br>
+統一碼字源：《<a title='GXC-1003.70'>中</a>》
+<hr size=1  color=999999>
+</td>
+<tr><TD bgcolor=eeeeee  align=left valign=top class='td1'>
+
+<table border=0>
+<tr><td valign=bottom><a href="https://kangxizidian.com/kxhans/𧉇" target=_new><img src=https://kangxizidian.com/kx/27247.png width=64 border=1 style='border-color:#777777' Title='康熙字體'></a> &nbsp;&nbsp; 
+<img src=/cjdict/img/t/27247.png width=64 border=1 style='border-color:#777777' Title='台灣：繁體漢字參考字形'> &nbsp;&nbsp; 
+<img src=/cjdict/img/g/27247.png width=64 border=1 style='border-color:#777777' Title='中國：簡化漢字參考字形'> &nbsp;&nbsp; 
+
+
+</td><td valign=bottom>
+<div class='view_pc'>
+<font48><font  style="font-family: 'Microsoft JhengHei',mingliu,pmingliu,mingliu-ExtB,pmingliu-ExtB,TH-Tshyn-P2,CJKExtB-G">𧉇</font></font48>&nbsp;&nbsp; 
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">𧉇</font></font46>
+</div>
+<div class='view_mb'>
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">𧉇</font></font46>
+</div>
+</td><td valign=bottom></td></tr></table>
+<br><font18><font color=#663300>
+
+　倉頡五代：CULMI  <br>　　　部首：<a href='/cjdict/index.php?stype=Radical&detail=n&sword=虫'>虫</a> 
+<!--　部首筆畫：6-->
+　　部外筆畫：4
+<a class='view_mb'><br></a>
+　　總筆畫：<a href='/cjdict/index.php?stype=TotalStk&detail=n&sword=10'>10</a><br>　　　拼音：<a href='/cjdict/index.php?stype=Pinyin&detail=n&sword=huī'>huī</a> <br>　　　注音：<a href='/cjdict/index.php?stype=Zhuyin&detail=n&sword=ㄏㄨㄟ'>ㄏㄨㄟ</a> <br>
+　　　字典：<a href="https://kangxizidian.com/kxhans/𧉇" target=_new>康熙字典</a><br>
+　　統一碼：27247<br>
+統一碼字集：<a href='/cjdict/index.php?stype=Unicode&detail=n&sword=CJK_EB'>CJK_EB</a><br>
+統一碼字源：《<a title='GKX-1078.11'>中</a>》《<a title='T6-3B70'>台</a>》《<a title='KP1-7136'>朝</a>》
+<hr size=1  color=999999>
+</td>
+<tr><TD bgcolor=eeeeee  align=left valign=top class='td1'>
+
+<table border=0>
+<tr><td valign=bottom><a href="https://kangxizidian.com/kxhans/𠜑" target=_new><img src=https://kangxizidian.com/kx/20711.png width=64 border=1 style='border-color:#777777' Title='康熙字體'></a> &nbsp;&nbsp; 
+<img src=/cjdict/img/t/20711.png width=64 border=1 style='border-color:#777777' Title='台灣：繁體漢字參考字形'> &nbsp;&nbsp; 
+<img src=/cjdict/img/g/20711.png width=64 border=1 style='border-color:#777777' Title='中國：簡化漢字參考字形'> &nbsp;&nbsp; 
+
+
+</td><td valign=bottom>
+<div class='view_pc'>
+<font48><font  style="font-family: 'Microsoft JhengHei',mingliu,pmingliu,mingliu-ExtB,pmingliu-ExtB,TH-Tshyn-P2,CJKExtB-G">𠜑</font></font48>&nbsp;&nbsp; 
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">𠜑</font></font46>
+</div>
+<div class='view_mb'>
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">𠜑</font></font46>
+</div>
+</td><td valign=bottom></td></tr></table>
+<br><font18><font color=#663300>
+
+　倉頡五代：CULN  <br>　　　部首：<a href='/cjdict/index.php?stype=Radical&detail=n&sword=刀'>刀</a> 
+<!--　部首筆畫：2-->
+　　部外筆畫：7
+<a class='view_mb'><br></a>
+　　總筆畫：<a href='/cjdict/index.php?stype=TotalStk&detail=n&sword=9'>9</a><br>　　　拼音：<a href='/cjdict/index.php?stype=Pinyin&detail=n&sword=duì'>duì</a> <br>　　　注音：<a href='/cjdict/index.php?stype=Zhuyin&detail=n&sword=ㄉㄨㄟˋ'>ㄉㄨㄟˋ</a> <br>
+　　　字典：<a href="https://kangxizidian.com/kxhans/𠜑" target=_new>康熙字典</a><br>
+　　統一碼：20711<br>
+統一碼字集：<a href='/cjdict/index.php?stype=Unicode&detail=n&sword=CJK_EB'>CJK_EB</a><br>
+統一碼字源：《<a title='GKX-0140.01'>中</a>》《<a title='T5-282D'>台</a>》
+<hr size=1  color=999999>
+</td>
+<tr><TD bgcolor=eeeeee  align=left valign=top class='td1'>
+
+<table border=0>
+<tr><td valign=bottom><a href="https://kangxizidian.com/kxhans/鍴" target=_new><img src=https://kangxizidian.com/kx/9374.png width=64 border=1 style='border-color:#777777' Title='康熙字體'></a> &nbsp;&nbsp; 
+<img src=/cjdict/img/t/9374.png width=64 border=1 style='border-color:#777777' Title='台灣：繁體漢字參考字形'> &nbsp;&nbsp; 
+<img src=/cjdict/img/g/9374.png width=64 border=1 style='border-color:#777777' Title='中國：簡化漢字參考字形'> &nbsp;&nbsp; 
+
+
+</td><td valign=bottom>
+<div class='view_pc'>
+<font48><font  style="font-family: 'Microsoft JhengHei',mingliu,pmingliu,mingliu-ExtB,pmingliu-ExtB,TH-Tshyn-P2,CJKExtB-G">鍴</font></font48>&nbsp;&nbsp; 
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">鍴</font></font46>
+</div>
+<div class='view_mb'>
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">鍴</font></font46>
+</div>
+</td><td valign=bottom></td></tr></table>
+<br><font18><font color=#663300>
+
+　倉頡五代：CUMB  <br>　　　部首：<a href='/cjdict/index.php?stype=Radical&detail=n&sword=金'>金</a> 
+<!--　部首筆畫：8-->
+　　部外筆畫：9
+<a class='view_mb'><br></a>
+　　總筆畫：<a href='/cjdict/index.php?stype=TotalStk&detail=n&sword=17'>17</a><br>　　　拼音：<a href='/cjdict/index.php?stype=Pinyin&detail=n&sword=duān'>duān</a> <br>　　　注音：<a href='/cjdict/index.php?stype=Zhuyin&detail=n&sword=ㄉㄨㄢ'>ㄉㄨㄢ</a> <br>
+　　　字典：<a href="https://kangxizidian.com/kxhans/鍴" target=_new>康熙字典</a><br>
+　　統一碼：9374<br>
+統一碼字集：<a href='/cjdict/index.php?stype=Unicode&detail=n&sword=CJK'>CJK</a><br>
+統一碼字源：《<a title='G3-765F'>中</a>》《<a title='T3-565F'>台</a>》《<a title='H-97BF'>港</a>》《<a title='J1-647D'>日</a>》《<a title='K2-6967'>韓</a>》《<a title='KP1-80E0'>朝</a>》
+<hr size=1  color=999999>
+</td>
+<tr><TD bgcolor=eeeeee  align=left valign=top class='td1'>
+
+<table border=0>
+<tr><td valign=bottom><a href="https://kangxizidian.com/kxhans/䫄" target=_new><img src=https://kangxizidian.com/kx/4AC4.png width=64 border=1 style='border-color:#777777' Title='康熙字體'></a> &nbsp;&nbsp; 
+<img src=/cjdict/img/t/4AC4.png width=64 border=1 style='border-color:#777777' Title='台灣：繁體漢字參考字形'> &nbsp;&nbsp; 
+<img src=/cjdict/img/g/4AC4.png width=64 border=1 style='border-color:#777777' Title='中國：簡化漢字參考字形'> &nbsp;&nbsp; 
+
+
+</td><td valign=bottom>
+<div class='view_pc'>
+<font48><font  style="font-family: 'Microsoft JhengHei',mingliu,pmingliu,mingliu-ExtB,pmingliu-ExtB,TH-Tshyn-P2,CJKExtB-G">䫄</font></font48>&nbsp;&nbsp; 
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">䫄</font></font46>
+</div>
+<div class='view_mb'>
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">䫄</font></font46>
+</div>
+</td><td valign=bottom></td></tr></table>
+<br><font18><font color=#663300>
+
+　倉頡五代：CUMBC  <br>　　　部首：<a href='/cjdict/index.php?stype=Radical&detail=n&sword=頁'>頁</a> 
+<!--　部首筆畫：9-->
+　　部外筆畫：7
+<a class='view_mb'><br></a>
+　　總筆畫：<a href='/cjdict/index.php?stype=TotalStk&detail=n&sword=16'>16</a><br>　　　拼音：<a href='/cjdict/index.php?stype=Pinyin&detail=n&sword=chuà'>chuà</a> <br>　　　注音：<a href='/cjdict/index.php?stype=Zhuyin&detail=n&sword=ㄔㄨㄚˋ'>ㄔㄨㄚˋ</a> <br>
+　　　字典：<a href="https://kangxizidian.com/kxhans/䫄" target=_new>康熙字典</a><br>
+　　統一碼：4AC4<br>
+統一碼字集：<a href='/cjdict/index.php?stype=Unicode&detail=n&sword=CJK_EA'>CJK_EA</a><br>
+統一碼字源：《<a title='G3-607C'>中</a>》《<a title='T4-546F'>台</a>》《<a title='KP1-86E8'>朝</a>》
+<hr size=1  color=999999>
+</td>
+<tr><TD bgcolor=eeeeee  align=left valign=top class='td1'>
+
+<table border=0>
+<tr><td valign=bottom><a href="https://kangxizidian.com/kxhans/尩" target=_new><img src=https://kangxizidian.com/kx/5C29.png width=64 border=1 style='border-color:#777777' Title='康熙字體'></a> &nbsp;&nbsp; 
+<img src=/cjdict/img/t/5C29.png width=64 border=1 style='border-color:#777777' Title='台灣：繁體漢字參考字形'> &nbsp;&nbsp; 
+<img src=/cjdict/img/g/5C29.png width=64 border=1 style='border-color:#777777' Title='中國：簡化漢字參考字形'> &nbsp;&nbsp; 
+
+
+</td><td valign=bottom>
+<div class='view_pc'>
+<font48><font  style="font-family: 'Microsoft JhengHei',mingliu,pmingliu,mingliu-ExtB,pmingliu-ExtB,TH-Tshyn-P2,CJKExtB-G">尩</font></font48>&nbsp;&nbsp; 
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">尩</font></font46>
+</div>
+<div class='view_mb'>
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">尩</font></font46>
+</div>
+</td><td valign=bottom></td></tr></table>
+<br><font18><font color=#663300>
+
+　倉頡五代：CUMG  <br>　　　部首：<a href='/cjdict/index.php?stype=Radical&detail=n&sword=頁'>頁</a> <a href='/cjdict/index.php?stype=Radical&detail=n&sword=尢'>尢</a> , <a href='/cjdict/index.php?stype=Radical&detail=n&sword=玉'>玉</a> 
+<!--　部首筆畫：4-->
+　　部外筆畫：4,4
+<a class='view_mb'><br></a>
+　　總筆畫：<a href='/cjdict/index.php?stype=TotalStk&detail=n&sword=8'>8</a><br>　　　拼音：<a href='/cjdict/index.php?stype=Pinyin&detail=n&sword=wāng'>wāng</a> <br>　　　注音：<a href='/cjdict/index.php?stype=Zhuyin&detail=n&sword=ㄨㄤ'>ㄨㄤ</a> <br>
+　　　字典：<a href="https://kangxizidian.com/kxhans/尩" target=_new>康熙字典</a><br>
+　　統一碼：5C29<br>
+統一碼字集：<a href='/cjdict/index.php?stype=Unicode&detail=n&sword=CJK'>CJK</a><br>
+統一碼字源：《<a title='GE-3721'>中</a>》《<a title='T4-2629'>台</a>》《<a title='J14-282E'>日</a>》《<a title='KP1-3EDA'>朝</a>》
+<hr size=1  color=999999>
+</td>
+<tr><TD bgcolor=eeeeee  align=left valign=top class='td1'>
+
+<table border=0>
+<tr><td valign=bottom><a href="https://kangxizidian.com/kxhans/䥀" target=_new><img src=https://kangxizidian.com/kx/4940.png width=64 border=1 style='border-color:#777777' Title='康熙字體'></a> &nbsp;&nbsp; 
+<img src=/cjdict/img/t/4940.png width=64 border=1 style='border-color:#777777' Title='台灣：繁體漢字參考字形'> &nbsp;&nbsp; 
+<img src=/cjdict/img/g/4940.png width=64 border=1 style='border-color:#777777' Title='中國：簡化漢字參考字形'> &nbsp;&nbsp; 
+
+
+</td><td valign=bottom>
+<div class='view_pc'>
+<font48><font  style="font-family: 'Microsoft JhengHei',mingliu,pmingliu,mingliu-ExtB,pmingliu-ExtB,TH-Tshyn-P2,CJKExtB-G">䥀</font></font48>&nbsp;&nbsp; 
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">䥀</font></font46>
+</div>
+<div class='view_mb'>
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">䥀</font></font46>
+</div>
+</td><td valign=bottom></td></tr></table>
+<br><font18><font color=#663300>
+
+　倉頡五代：CUMI  <br>　　　部首：<a href='/cjdict/index.php?stype=Radical&detail=n&sword=金'>金</a> 
+<!--　部首筆畫：8-->
+　　部外筆畫：10
+<a class='view_mb'><br></a>
+　　總筆畫：<a href='/cjdict/index.php?stype=TotalStk&detail=n&sword=18'>18</a><br>　　　拼音：<a href='/cjdict/index.php?stype=Pinyin&detail=n&sword=chǎn'>chǎn</a> <br>　　　注音：<a href='/cjdict/index.php?stype=Zhuyin&detail=n&sword=ㄔㄢˇ'>ㄔㄢˇ</a> <br>
+　　　字典：<a href="https://kangxizidian.com/kxhans/䥀" target=_new>康熙字典</a><br>
+　　統一碼：4940<br>
+統一碼字集：<a href='/cjdict/index.php?stype=Unicode&detail=n&sword=CJK_EA'>CJK_EA</a><br>
+統一碼字源：《<a title='G3-7674'>中</a>》《<a title='T4-5E2C'>台</a>》《<a title='KP1-8130'>朝</a>》
+<hr size=1  color=999999>
+</td>
+<tr><TD bgcolor=eeeeee  align=left valign=top class='td1'>
+
+<table border=0>
+<tr><td valign=bottom><a href="https://kangxizidian.com/kxhans/錌" target=_new><img src=https://kangxizidian.com/kx/930C.png width=64 border=1 style='border-color:#777777' Title='康熙字體'></a> &nbsp;&nbsp; 
+<img src=/cjdict/img/t/930C.png width=64 border=1 style='border-color:#777777' Title='台灣：繁體漢字參考字形'> &nbsp;&nbsp; 
+<img src=/cjdict/img/g/930C.png width=64 border=1 style='border-color:#777777' Title='中國：簡化漢字參考字形'> &nbsp;&nbsp; 
+
+
+</td><td valign=bottom>
+<div class='view_pc'>
+<font48><font  style="font-family: 'Microsoft JhengHei',mingliu,pmingliu,mingliu-ExtB,pmingliu-ExtB,TH-Tshyn-P2,CJKExtB-G">錌</font></font48>&nbsp;&nbsp; 
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">錌</font></font46>
+</div>
+<div class='view_mb'>
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">錌</font></font46>
+</div>
+</td><td valign=bottom></td></tr></table>
+<br><font18><font color=#663300>
+
+　倉頡五代：CUMJ  <br>　　　部首：<a href='/cjdict/index.php?stype=Radical&detail=n&sword=金'>金</a> 
+<!--　部首筆畫：8-->
+　　部外筆畫：8
+<a class='view_mb'><br></a>
+　　總筆畫：<a href='/cjdict/index.php?stype=TotalStk&detail=n&sword=16'>16</a><br>　　　拼音：<a href='/cjdict/index.php?stype=Pinyin&detail=n&sword=àn'>àn</a> <br>　　　注音：<a href='/cjdict/index.php?stype=Zhuyin&detail=n&sword=ㄢˋ'>ㄢˋ</a> <br>
+　　　字典：<a href="https://kangxizidian.com/kxhans/錌" target=_new>康熙字典</a><br>
+　　統一碼：930C<br>
+統一碼字集：<a href='/cjdict/index.php?stype=Unicode&detail=n&sword=CJK'>CJK</a><br>
+統一碼字源：《<a title='台灣：大五碼 BIG 5，收錄 13051 個漢字，包含常用、次常用國字標準字體表。'>繁</a>》《<a title='GE-5134'>中</a>》《<a title='T2-5B4B'>台</a>》《<a title='HB2-EBFE'>港</a>》《<a title='K2-693B'>韓</a>》《<a title='KP1-80D0'>朝</a>》
+<hr size=1  color=999999>
+</td>
+<tr><TD bgcolor=eeeeee  align=left valign=top class='td1'>
+
+<table border=0>
+<tr><td valign=bottom>
+<img src=/cjdict/img/t/2D027.png width=64 border=1 style='border-color:#777777' Title='台灣：繁體漢字參考字形'> &nbsp;&nbsp; 
+<img src=/cjdict/img/g/2D027.png width=64 border=1 style='border-color:#777777' Title='中國：簡化漢字參考字形'> &nbsp;&nbsp; 
+
+
+</td><td valign=bottom>
+<div class='view_pc'>
+<font48><font  style="font-family: 'Microsoft JhengHei',mingliu,pmingliu,mingliu-ExtB,pmingliu-ExtB,TH-Tshyn-P2,CJKExtB-G">𭀧</font></font48>&nbsp;&nbsp; 
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">𭀧</font></font46>
+</div>
+<div class='view_mb'>
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">𭀧</font></font46>
+</div>
+</td><td valign=bottom></td></tr></table>
+<br><font18><font color=#663300>
+
+　倉頡五代：CUMJ  <br>　　　部首：<a href='/cjdict/index.php?stype=Radical&detail=n&sword=儿'>儿</a> 
+<!--　部首筆畫：2-->
+　　部外筆畫：8
+<a class='view_mb'><br></a>
+　　總筆畫：<a href='/cjdict/index.php?stype=TotalStk&detail=n&sword=10'>10</a><br>
+　　　字典：<a href="https://kangxizidian.com/kxhans/𭀧" target=_new>康熙字典</a><br>
+　　統一碼：2D027<br>
+統一碼字集：<a href='/cjdict/index.php?stype=Unicode&detail=n&sword=CJK_EF'>CJK_EF</a><br>
+統一碼字源：《<a title='GZ-2472103'>中</a>》
+<hr size=1  color=999999>
+</td>
+<tr><TD bgcolor=eeeeee  align=left valign=top class='td1'>
+
+<table border=0>
+<tr><td valign=bottom><a href="https://kangxizidian.com/kxhans/䝇" target=_new><img src=https://kangxizidian.com/kx/4747.png width=64 border=1 style='border-color:#777777' Title='康熙字體'></a> &nbsp;&nbsp; 
+<img src=/cjdict/img/t/4747.png width=64 border=1 style='border-color:#777777' Title='台灣：繁體漢字參考字形'> &nbsp;&nbsp; 
+<img src=/cjdict/img/g/4747.png width=64 border=1 style='border-color:#777777' Title='中國：簡化漢字參考字形'> &nbsp;&nbsp; 
+
+
+</td><td valign=bottom>
+<div class='view_pc'>
+<font48><font  style="font-family: 'Microsoft JhengHei',mingliu,pmingliu,mingliu-ExtB,pmingliu-ExtB,TH-Tshyn-P2,CJKExtB-G">䝇</font></font48>&nbsp;&nbsp; 
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">䝇</font></font46>
+</div>
+<div class='view_mb'>
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">䝇</font></font46>
+</div>
+</td><td valign=bottom></td></tr></table>
+<br><font18><font color=#663300>
+
+　倉頡五代：CUMSO  <br>　　　部首：<a href='/cjdict/index.php?stype=Radical&detail=n&sword=豕'>豕</a> 
+<!--　部首筆畫：7-->
+　　部外筆畫：4
+<a class='view_mb'><br></a>
+　　總筆畫：<a href='/cjdict/index.php?stype=TotalStk&detail=n&sword=11'>11</a><br>
+　　　字典：<a href="https://kangxizidian.com/kxhans/䝇" target=_new>康熙字典</a><br>
+　　統一碼：4747<br>
+統一碼字集：<a href='/cjdict/index.php?stype=Unicode&detail=n&sword=CJK_EA'>CJK_EA</a><br>
+統一碼字源：《<a title='GKX-1195.09'>中</a>》《<a title='T6-4522'>台</a>》《<a title='K3-3258'>韓</a>》
+<hr size=1  color=999999>
+</td>
+<tr><TD bgcolor=eeeeee  align=left valign=top class='td1'>
+
+<table border=0>
+<tr><td valign=bottom><a href="https://kangxizidian.com/kxhans/鎧" target=_new><img src=https://kangxizidian.com/kx/93A7.png width=64 border=1 style='border-color:#777777' Title='康熙字體'></a> &nbsp;&nbsp; 
+<img src=/cjdict/img/t/93A7.png width=64 border=1 style='border-color:#777777' Title='台灣：繁體漢字參考字形'> &nbsp;&nbsp; 
+<img src=/cjdict/img/g/93A7.png width=64 border=1 style='border-color:#777777' Title='中國：簡化漢字參考字形'> &nbsp;&nbsp; 
+
+
+</td><td valign=bottom>
+<div class='view_pc'>
+<font48><font  style="font-family: 'Microsoft JhengHei',mingliu,pmingliu,mingliu-ExtB,pmingliu-ExtB,TH-Tshyn-P2,CJKExtB-G">鎧</font></font48>&nbsp;&nbsp; 
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">鎧</font></font46>
+</div>
+<div class='view_mb'>
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">鎧</font></font46>
+</div>
+</td><td valign=bottom></td></tr></table>
+<br><font18><font color=#663300>
+
+　倉頡五代：CUMT  <br>　　　部首：<a href='/cjdict/index.php?stype=Radical&detail=n&sword=金'>金</a> 
+<!--　部首筆畫：8-->
+　　部外筆畫：10
+<a class='view_mb'><br></a>
+　　總筆畫：<a href='/cjdict/index.php?stype=TotalStk&detail=n&sword=18'>18</a><br>　　　拼音：<a href='/cjdict/index.php?stype=Pinyin&detail=n&sword=kǎi'>kǎi</a> <br>　　　注音：<a href='/cjdict/index.php?stype=Zhuyin&detail=n&sword=ㄎㄞˇ'>ㄎㄞˇ</a> <br>
+　　　字典：<a href="https://kangxizidian.com/kxhans/鎧" target=_new>康熙字典</a><br>
+　　統一碼：93A7<br>
+統一碼字集：<a href='/cjdict/index.php?stype=Unicode&detail=n&sword=CJK'>CJK</a><br>
+統一碼字源：《<a title='台灣：大五碼 BIG 5，收錄 13051 個漢字，包含常用、次常用國字標準字體表。'>繁</a>》《<a title='G1-6E78'>中</a>》《<a title='T2-6426'>台</a>》《<a title='HB2-F15A'>港</a>》《<a title='J0-333B'>日</a>》《<a title='K0-4B51'>韓</a>》《<a title='KP0-D3AF'>朝</a>》
+<hr size=1  color=999999>
+</td>
+<tr><TD bgcolor=eeeeee  align=left valign=top class='td1'>
+
+<table border=0>
+<tr><td valign=bottom><a href="https://kangxizidian.com/kxhans/䤴" target=_new><img src=https://kangxizidian.com/kx/4934.png width=64 border=1 style='border-color:#777777' Title='康熙字體'></a> &nbsp;&nbsp; 
+<img src=/cjdict/img/t/4934.png width=64 border=1 style='border-color:#777777' Title='台灣：繁體漢字參考字形'> &nbsp;&nbsp; 
+<img src=/cjdict/img/g/4934.png width=64 border=1 style='border-color:#777777' Title='中國：簡化漢字參考字形'> &nbsp;&nbsp; 
+
+
+</td><td valign=bottom>
+<div class='view_pc'>
+<font48><font  style="font-family: 'Microsoft JhengHei',mingliu,pmingliu,mingliu-ExtB,pmingliu-ExtB,TH-Tshyn-P2,CJKExtB-G">䤴</font></font48>&nbsp;&nbsp; 
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">䤴</font></font46>
+</div>
+<div class='view_mb'>
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">䤴</font></font46>
+</div>
+</td><td valign=bottom></td></tr></table>
+<br><font18><font color=#663300>
+
+　倉頡五代：CUNE  <br>　　　部首：<a href='/cjdict/index.php?stype=Radical&detail=n&sword=金'>金</a> 
+<!--　部首筆畫：8-->
+　　部外筆畫：8
+<a class='view_mb'><br></a>
+　　總筆畫：<a href='/cjdict/index.php?stype=TotalStk&detail=n&sword=16'>16</a><br>　　　拼音：<a href='/cjdict/index.php?stype=Pinyin&detail=n&sword=hán'>hán</a> <br>　　　注音：<a href='/cjdict/index.php?stype=Zhuyin&detail=n&sword=ㄏㄢˊ'>ㄏㄢˊ</a> <br>
+　　　字典：<a href="https://kangxizidian.com/kxhans/䤴" target=_new>康熙字典</a><br>
+　　統一碼：4934<br>
+統一碼字集：<a href='/cjdict/index.php?stype=Unicode&detail=n&sword=CJK_EA'>CJK_EA</a><br>
+統一碼字源：《<a title='G5-7566'>中</a>》《<a title='T3-5334'>台</a>》《<a title='KP1-80CC'>朝</a>》
+<hr size=1  color=999999>
+</td>
+<tr><TD bgcolor=eeeeee  align=left valign=top class='td1'>
+
+<table border=0>
+<tr><td valign=bottom><a href="https://kangxizidian.com/kxhans/鑴" target=_new><img src=https://kangxizidian.com/kx/9474.png width=64 border=1 style='border-color:#777777' Title='康熙字體'></a> &nbsp;&nbsp; 
+<img src=/cjdict/img/t/9474.png width=64 border=1 style='border-color:#777777' Title='台灣：繁體漢字參考字形'> &nbsp;&nbsp; 
+<img src=/cjdict/img/g/9474.png width=64 border=1 style='border-color:#777777' Title='中國：簡化漢字參考字形'> &nbsp;&nbsp; 
+
+
+</td><td valign=bottom>
+<div class='view_pc'>
+<font48><font  style="font-family: 'Microsoft JhengHei',mingliu,pmingliu,mingliu-ExtB,pmingliu-ExtB,TH-Tshyn-P2,CJKExtB-G">鑴</font></font48>&nbsp;&nbsp; 
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">鑴</font></font46>
+</div>
+<div class='view_mb'>
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">鑴</font></font46>
+</div>
+</td><td valign=bottom></td></tr></table>
+<br><font18><font color=#663300>
+
+　倉頡五代：CUOB  <br>　　　部首：<a href='/cjdict/index.php?stype=Radical&detail=n&sword=金'>金</a> 
+<!--　部首筆畫：8-->
+　　部外筆畫：18
+<a class='view_mb'><br></a>
+　　總筆畫：<a href='/cjdict/index.php?stype=TotalStk&detail=n&sword=26'>26</a><br>　　　拼音：<a href='/cjdict/index.php?stype=Pinyin&detail=n&sword=xī'>xī</a> , <a href='/cjdict/index.php?stype=Pinyin&detail=n&sword=huī'>huī</a> <br>　　　注音：<a href='/cjdict/index.php?stype=Zhuyin&detail=n&sword=ㄒㄧ'>ㄒㄧ</a> , <a href='/cjdict/index.php?stype=Zhuyin&detail=n&sword=ㄏㄨㄟ'>ㄏㄨㄟ</a> <br>
+　　　字典：<a href="https://kangxizidian.com/kxhans/鑴" target=_new>康熙字典</a><br>
+　　統一碼：9474<br>
+統一碼字集：<a href='/cjdict/index.php?stype=Unicode&detail=n&sword=CJK'>CJK</a><br>
+統一碼字源：《<a title='台灣：大五碼 BIG 5，收錄 13051 個漢字，包含常用、次常用國字標準字體表。'>繁</a>》《<a title='G3-7738'>中</a>》《<a title='T2-7161'>台</a>》《<a title='HB2-F972'>港</a>》《<a title='K2-6A7D'>韓</a>》《<a title='KP1-81ED'>朝</a>》
+<hr size=1  color=999999>
+</td>
+<tr><TD bgcolor=eeeeee  align=left valign=top class='td1'>
+
+<table border=0>
+<tr><td valign=bottom><a href="https://kangxizidian.com/kxhans/鏙" target=_new><img src=https://kangxizidian.com/kx/93D9.png width=64 border=1 style='border-color:#777777' Title='康熙字體'></a> &nbsp;&nbsp; 
+<img src=/cjdict/img/t/93D9.png width=64 border=1 style='border-color:#777777' Title='台灣：繁體漢字參考字形'> &nbsp;&nbsp; 
+<img src=/cjdict/img/g/93D9.png width=64 border=1 style='border-color:#777777' Title='中國：簡化漢字參考字形'> &nbsp;&nbsp; 
+
+
+</td><td valign=bottom>
+<div class='view_pc'>
+<font48><font  style="font-family: 'Microsoft JhengHei',mingliu,pmingliu,mingliu-ExtB,pmingliu-ExtB,TH-Tshyn-P2,CJKExtB-G">鏙</font></font48>&nbsp;&nbsp; 
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">鏙</font></font46>
+</div>
+<div class='view_mb'>
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">鏙</font></font46>
+</div>
+</td><td valign=bottom></td></tr></table>
+<br><font18><font color=#663300>
+
+　倉頡五代：CUOG  <br>　　　部首：<a href='/cjdict/index.php?stype=Radical&detail=n&sword=金'>金</a> 
+<!--　部首筆畫：8-->
+　　部外筆畫：11
+<a class='view_mb'><br></a>
+　　總筆畫：<a href='/cjdict/index.php?stype=TotalStk&detail=n&sword=19'>19</a><br>　　　拼音：<a href='/cjdict/index.php?stype=Pinyin&detail=n&sword=cuī'>cuī</a> <br>　　　注音：<a href='/cjdict/index.php?stype=Zhuyin&detail=n&sword=ㄘㄨㄟ'>ㄘㄨㄟ</a> <br>
+　　　字典：<a href="https://kangxizidian.com/kxhans/鏙" target=_new>康熙字典</a><br>
+　　統一碼：93D9<br>
+統一碼字集：<a href='/cjdict/index.php?stype=Unicode&detail=n&sword=CJK'>CJK</a><br>
+統一碼字源：《<a title='台灣：大五碼 BIG 5，收錄 13051 個漢字，包含常用、次常用國字標準字體表。'>繁</a>》《<a title='G3-7679'>中</a>》《<a title='T2-6755'>台</a>》《<a title='HB2-F369'>港</a>》《<a title='J1-6547'>日</a>》《<a title='K2-6A37'>韓</a>》《<a title='KP1-8164'>朝</a>》
+<hr size=1  color=999999>
+</td>
+<tr><TD bgcolor=eeeeee  align=left valign=top class='td1'>
+
+<table border=0>
+<tr><td valign=bottom>
+<img src=/cjdict/img/t/6553.png width=64 border=1 style='border-color:#777777' Title='台灣：繁體漢字參考字形'> &nbsp;&nbsp; 
+<img src=/cjdict/img/g/6553.png width=64 border=1 style='border-color:#777777' Title='中國：簡化漢字參考字形'> &nbsp;&nbsp; 
+
+
+</td><td valign=bottom>
+<div class='view_pc'>
+<font48><font  style="font-family: 'Microsoft JhengHei',mingliu,pmingliu,mingliu-ExtB,pmingliu-ExtB,TH-Tshyn-P2,CJKExtB-G">敓</font></font48>&nbsp;&nbsp; 
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">敓</font></font46>
+</div>
+<div class='view_mb'>
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">敓</font></font46>
+</div>
+</td><td valign=bottom></td></tr></table>
+<br><font18><font color=#663300>
+
+　倉頡五代：CUOK  <br>　　　部首：<a href='/cjdict/index.php?stype=Radical&detail=n&sword=攴'>攴</a> 
+<!--　部首筆畫：4-->
+　　部外筆畫：7
+<a class='view_mb'><br></a>
+　　總筆畫：<a href='/cjdict/index.php?stype=TotalStk&detail=n&sword=11'>11</a><br>　　　拼音：<a href='/cjdict/index.php?stype=Pinyin&detail=n&sword=duó'>duó</a> <br>　　　注音：<a href='/cjdict/index.php?stype=Zhuyin&detail=n&sword=ㄉㄨㄛˊ'>ㄉㄨㄛˊ</a> <br>
+　　　字典：<a href="https://kangxizidian.com/kxhans/敓" target=_new>康熙字典</a><br>
+　　統一碼：6553<br>
+統一碼字集：<a href='/cjdict/index.php?stype=Unicode&detail=n&sword=CJK'>CJK</a><br>
+統一碼字源：《<a title='台灣：大五碼 BIG 5，收錄 13051 個漢字，包含常用、次常用國字標準字體表。'>繁</a>》《<a title='GE-3B38'>中</a>》《<a title='T2-3569'>台</a>》《<a title='HB2-D5A7'>港</a>》《<a title='K2-376E'>韓</a>》《<a title='KP1-4818'>朝</a>》
+<hr size=1  color=999999>
+</td>
+<tr><TD bgcolor=eeeeee  align=left valign=top class='td1'>
+
+<table border=0>
+<tr><td valign=bottom><a href="https://kangxizidian.com/kxhans/敚" target=_new><img src=https://kangxizidian.com/kx/655A.png width=64 border=1 style='border-color:#777777' Title='康熙字體'></a> &nbsp;&nbsp; 
+<img src=/cjdict/img/t/655A.png width=64 border=1 style='border-color:#777777' Title='台灣：繁體漢字參考字形'> &nbsp;&nbsp; 
+<img src=/cjdict/img/g/655A.png width=64 border=1 style='border-color:#777777' Title='中國：簡化漢字參考字形'> &nbsp;&nbsp; 
+
+
+</td><td valign=bottom>
+<div class='view_pc'>
+<font48><font  style="font-family: 'Microsoft JhengHei',mingliu,pmingliu,mingliu-ExtB,pmingliu-ExtB,TH-Tshyn-P2,CJKExtB-G">敚</font></font48>&nbsp;&nbsp; 
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">敚</font></font46>
+</div>
+<div class='view_mb'>
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">敚</font></font46>
+</div>
+</td><td valign=bottom></td></tr></table>
+<br><font18><font color=#663300>
+
+　倉頡五代：CUOK  <br>　　　部首：<a href='/cjdict/index.php?stype=Radical&detail=n&sword=攴'>攴</a> 
+<!--　部首筆畫：4-->
+　　部外筆畫：7
+<a class='view_mb'><br></a>
+　　總筆畫：<a href='/cjdict/index.php?stype=TotalStk&detail=n&sword=11'>11</a><br>　　　拼音：<a href='/cjdict/index.php?stype=Pinyin&detail=n&sword=duó'>duó</a> <br>　　　注音：<a href='/cjdict/index.php?stype=Zhuyin&detail=n&sword=ㄉㄨㄛˊ'>ㄉㄨㄛˊ</a> <br>
+　　　字典：<a href="https://kangxizidian.com/kxhans/敚" target=_new>康熙字典</a><br>
+　　統一碼：655A<br>
+統一碼字集：<a href='/cjdict/index.php?stype=Unicode&detail=n&sword=CJK'>CJK</a><br>
+統一碼字源：《<a title='G5-493D'>中</a>》《<a title='T3-3634'>台</a>》《<a title='HD-655A'>港</a>》
+<hr size=1  color=999999>
+</td>
+<tr><TD bgcolor=eeeeee  align=left valign=top class='td1'>
+
+<table border=0>
+<tr><td valign=bottom><a href="https://kangxizidian.com/kxhans/𢼠" target=_new><img src=https://kangxizidian.com/kx/22F20.png width=64 border=1 style='border-color:#777777' Title='康熙字體'></a> &nbsp;&nbsp; 
+<img src=/cjdict/img/t/22F20.png width=64 border=1 style='border-color:#777777' Title='台灣：繁體漢字參考字形'> &nbsp;&nbsp; 
+<img src=/cjdict/img/g/22F20.png width=64 border=1 style='border-color:#777777' Title='中國：簡化漢字參考字形'> &nbsp;&nbsp; 
+
+
+</td><td valign=bottom>
+<div class='view_pc'>
+<font48><font  style="font-family: 'Microsoft JhengHei',mingliu,pmingliu,mingliu-ExtB,pmingliu-ExtB,TH-Tshyn-P2,CJKExtB-G">𢼠</font></font48>&nbsp;&nbsp; 
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">𢼠</font></font46>
+</div>
+<div class='view_mb'>
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">𢼠</font></font46>
+</div>
+</td><td valign=bottom></td></tr></table>
+<br><font18><font color=#663300>
+
+　倉頡五代：CUOK  <br>　　　部首：<a href='/cjdict/index.php?stype=Radical&detail=n&sword=攴'>攴</a> 
+<!--　部首筆畫：4-->
+　　部外筆畫：6
+<a class='view_mb'><br></a>
+　　總筆畫：<a href='/cjdict/index.php?stype=TotalStk&detail=n&sword=10'>10</a><br>　　　拼音：<a href='/cjdict/index.php?stype=Pinyin&detail=n&sword=duó'>duó</a> <br>　　　注音：<a href='/cjdict/index.php?stype=Zhuyin&detail=n&sword=ㄉㄨㄛˊ'>ㄉㄨㄛˊ</a> <br>
+　　　字典：<a href="https://kangxizidian.com/kxhans/𢼠" target=_new>康熙字典</a><br>
+　　統一碼：22F20<br>
+統一碼字集：<a href='/cjdict/index.php?stype=Unicode&detail=n&sword=CJK_EB'>CJK_EB</a><br>
+統一碼字源：《<a title='GKX-0470.16'>中</a>》《<a title='T6-315F'>台</a>》
+<hr size=1  color=999999>
+</td>
+<tr><TD bgcolor=eeeeee  align=left valign=top class='td1'>
+
+<table border=0>
+<tr><td valign=bottom>
+<img src=/cjdict/img/t/21BD7.png width=64 border=1 style='border-color:#777777' Title='台灣：繁體漢字參考字形'> &nbsp;&nbsp; 
+<img src=/cjdict/img/g/21BD7.png width=64 border=1 style='border-color:#777777' Title='中國：簡化漢字參考字形'> &nbsp;&nbsp; 
+
+
+</td><td valign=bottom>
+<div class='view_pc'>
+<font48><font  style="font-family: 'Microsoft JhengHei',mingliu,pmingliu,mingliu-ExtB,pmingliu-ExtB,TH-Tshyn-P2,CJKExtB-G">𡯗</font></font48>&nbsp;&nbsp; 
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">𡯗</font></font46>
+</div>
+<div class='view_mb'>
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">𡯗</font></font46>
+</div>
+</td><td valign=bottom></td></tr></table>
+<br><font18><font color=#663300>
+
+　倉頡五代：CUOLL  <br>　　　部首：<a href='/cjdict/index.php?stype=Radical&detail=n&sword=尢'>尢</a> 
+<!--　部首筆畫：3-->
+　　部外筆畫：4
+<a class='view_mb'><br></a>
+　　總筆畫：<a href='/cjdict/index.php?stype=TotalStk&detail=n&sword=7'>7</a><br>
+　　　字典：<a href="https://kangxizidian.com/kxhans/𡯗" target=_new>康熙字典</a><br>
+　　統一碼：21BD7<br>
+統一碼字集：<a href='/cjdict/index.php?stype=Unicode&detail=n&sword=CJK_EB'>CJK_EB</a><br>
+統一碼字源：《<a title='GHZ-80012.18'>中</a>》
+<hr size=1  color=999999>
+</td>
+<tr><TD bgcolor=eeeeee  align=left valign=top class='td1'>
+
+<table border=0>
+<tr><td valign=bottom><a href="https://kangxizidian.com/kxhans/䤫" target=_new><img src=https://kangxizidian.com/kx/492B.png width=64 border=1 style='border-color:#777777' Title='康熙字體'></a> &nbsp;&nbsp; 
+<img src=/cjdict/img/t/492B.png width=64 border=1 style='border-color:#777777' Title='台灣：繁體漢字參考字形'> &nbsp;&nbsp; 
+<img src=/cjdict/img/g/492B.png width=64 border=1 style='border-color:#777777' Title='中國：簡化漢字參考字形'> &nbsp;&nbsp; 
+
+
+</td><td valign=bottom>
+<div class='view_pc'>
+<font48><font  style="font-family: 'Microsoft JhengHei',mingliu,pmingliu,mingliu-ExtB,pmingliu-ExtB,TH-Tshyn-P2,CJKExtB-G">䤫</font></font48>&nbsp;&nbsp; 
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">䤫</font></font46>
+</div>
+<div class='view_mb'>
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">䤫</font></font46>
+</div>
+</td><td valign=bottom></td></tr></table>
+<br><font18><font color=#663300>
+
+　倉頡五代：CUON  <br>　　　部首：<a href='/cjdict/index.php?stype=Radical&detail=n&sword=金'>金</a> 
+<!--　部首筆畫：8-->
+　　部外筆畫：7
+<a class='view_mb'><br></a>
+　　總筆畫：<a href='/cjdict/index.php?stype=TotalStk&detail=n&sword=15'>15</a><br>　　　拼音：<a href='/cjdict/index.php?stype=Pinyin&detail=n&sword=chán'>chán</a> <br>　　　注音：<a href='/cjdict/index.php?stype=Zhuyin&detail=n&sword=ㄔㄢˊ'>ㄔㄢˊ</a> <br>
+　　　字典：<a href="https://kangxizidian.com/kxhans/䤫" target=_new>康熙字典</a><br>
+　　統一碼：492B<br>
+統一碼字集：<a href='/cjdict/index.php?stype=Unicode&detail=n&sword=CJK_EA'>CJK_EA</a><br>
+統一碼字源：《<a title='GKX-1306.01'>中</a>》《<a title='T3-4F4F'>台</a>》《<a title='JA-2745'>日</a>》
+<hr size=1  color=999999>
+</td>
+<tr><TD bgcolor=eeeeee  align=left valign=top class='td1'>
+
+<table border=0>
+<tr><td valign=bottom>
+<img src=/cjdict/img/t/28B7D.png width=64 border=1 style='border-color:#777777' Title='台灣：繁體漢字參考字形'> &nbsp;&nbsp; 
+<img src=/cjdict/img/g/28B7D.png width=64 border=1 style='border-color:#777777' Title='中國：簡化漢字參考字形'> &nbsp;&nbsp; 
+
+
+</td><td valign=bottom>
+<div class='view_pc'>
+<font48><font  style="font-family: 'Microsoft JhengHei',mingliu,pmingliu,mingliu-ExtB,pmingliu-ExtB,TH-Tshyn-P2,CJKExtB-G">𨭽</font></font48>&nbsp;&nbsp; 
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">𨭽</font></font46>
+</div>
+<div class='view_mb'>
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">𨭽</font></font46>
+</div>
+</td><td valign=bottom></td></tr></table>
+<br><font18><font color=#663300>
+
+　倉頡五代：CUOS  <br>　　　部首：<a href='/cjdict/index.php?stype=Radical&detail=n&sword=金'>金</a> 
+<!--　部首筆畫：8-->
+　　部外筆畫：13
+<a class='view_mb'><br></a>
+　　總筆畫：<a href='/cjdict/index.php?stype=TotalStk&detail=n&sword=21'>21</a><br>
+　　　字典：<a href="https://kangxizidian.com/kxhans/𨭽" target=_new>康熙字典</a><br>
+　　統一碼：28B7D<br>
+統一碼字集：<a href='/cjdict/index.php?stype=Unicode&detail=n&sword=CJK_EB'>CJK_EB</a><br>
+統一碼字源：《<a title='GHZ-64264.06'>中</a>》
+<hr size=1  color=999999>
+</td>
+<tr><TD bgcolor=eeeeee  align=left valign=top class='td1'>
+
+<table border=0>
+<tr><td valign=bottom><a href="https://kangxizidian.com/kxhans/尦" target=_new><img src=https://kangxizidian.com/kx/5C26.png width=64 border=1 style='border-color:#777777' Title='康熙字體'></a> &nbsp;&nbsp; 
+<img src=/cjdict/img/t/5C26.png width=64 border=1 style='border-color:#777777' Title='台灣：繁體漢字參考字形'> &nbsp;&nbsp; 
+<img src=/cjdict/img/g/5C26.png width=64 border=1 style='border-color:#777777' Title='中國：簡化漢字參考字形'> &nbsp;&nbsp; 
+
+
+</td><td valign=bottom>
+<div class='view_pc'>
+<font48><font  style="font-family: 'Microsoft JhengHei',mingliu,pmingliu,mingliu-ExtB,pmingliu-ExtB,TH-Tshyn-P2,CJKExtB-G">尦</font></font48>&nbsp;&nbsp; 
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">尦</font></font46>
+</div>
+<div class='view_mb'>
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">尦</font></font46>
+</div>
+</td><td valign=bottom></td></tr></table>
+<br><font18><font color=#663300>
+
+　倉頡五代：CUPI  <br>　　　部首：<a href='/cjdict/index.php?stype=Radical&detail=n&sword=尢'>尢</a> 
+<!--　部首筆畫：4-->
+　　部外筆畫：3
+<a class='view_mb'><br></a>
+　　總筆畫：<a href='/cjdict/index.php?stype=TotalStk&detail=n&sword=7'>7</a><br>　　　拼音：<a href='/cjdict/index.php?stype=Pinyin&detail=n&sword=liào'>liào</a> <br>　　　注音：<a href='/cjdict/index.php?stype=Zhuyin&detail=n&sword=ㄌㄧㄠˋ'>ㄌㄧㄠˋ</a> <br>
+　　　字典：<a href="https://kangxizidian.com/kxhans/尦" target=_new>康熙字典</a><br>
+　　統一碼：5C26<br>
+統一碼字集：<a href='/cjdict/index.php?stype=Unicode&detail=n&sword=CJK'>CJK</a><br>
+統一碼字源：《<a title='GE-367E'>中</a>》《<a title='J1-3A6E'>日</a>》
+<hr size=1  color=999999>
+</td>
+<tr><TD bgcolor=eeeeee  align=left valign=top class='td1'>
+
+<table border=0>
+<tr><td valign=bottom><a href="https://kangxizidian.com/kxhans/𡯚" target=_new><img src=https://kangxizidian.com/kx/21BDA.png width=64 border=1 style='border-color:#777777' Title='康熙字體'></a> &nbsp;&nbsp; 
+<img src=/cjdict/img/t/21BDA.png width=64 border=1 style='border-color:#777777' Title='台灣：繁體漢字參考字形'> &nbsp;&nbsp; 
+<img src=/cjdict/img/g/21BDA.png width=64 border=1 style='border-color:#777777' Title='中國：簡化漢字參考字形'> &nbsp;&nbsp; 
+
+
+</td><td valign=bottom>
+<div class='view_pc'>
+<font48><font  style="font-family: 'Microsoft JhengHei',mingliu,pmingliu,mingliu-ExtB,pmingliu-ExtB,TH-Tshyn-P2,CJKExtB-G">𡯚</font></font48>&nbsp;&nbsp; 
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">𡯚</font></font46>
+</div>
+<div class='view_mb'>
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">𡯚</font></font46>
+</div>
+</td><td valign=bottom></td></tr></table>
+<br><font18><font color=#663300>
+
+　倉頡五代：CUPRU  <br>　　　部首：<a href='/cjdict/index.php?stype=Radical&detail=n&sword=尢'>尢</a> 
+<!--　部首筆畫：3-->
+　　部外筆畫：5
+<a class='view_mb'><br></a>
+　　總筆畫：<a href='/cjdict/index.php?stype=TotalStk&detail=n&sword=8'>8</a><br>
+　　　字典：<a href="https://kangxizidian.com/kxhans/𡯚" target=_new>康熙字典</a><br>
+　　統一碼：21BDA<br>
+統一碼字集：<a href='/cjdict/index.php?stype=Unicode&detail=n&sword=CJK_EB'>CJK_EB</a><br>
+統一碼字源：《<a title='GKX-0298.18'>中</a>》
+<hr size=1  color=999999>
+</td>
+<tr><TD bgcolor=eeeeee  align=left valign=top class='td1'>
+
+<table border=0>
+<tr><td valign=bottom>
+<img src=/cjdict/img/t/2CE11.png width=64 border=1 style='border-color:#777777' Title='台灣：繁體漢字參考字形'> &nbsp;&nbsp; 
+<img src=/cjdict/img/g/2CE11.png width=64 border=1 style='border-color:#777777' Title='中國：簡化漢字參考字形'> &nbsp;&nbsp; 
+
+
+</td><td valign=bottom>
+<div class='view_pc'>
+<font48><font  style="font-family: 'Microsoft JhengHei',mingliu,pmingliu,mingliu-ExtB,pmingliu-ExtB,TH-Tshyn-P2,CJKExtB-G">𬸑</font></font48>&nbsp;&nbsp; 
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">𬸑</font></font46>
+</div>
+<div class='view_mb'>
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">𬸑</font></font46>
+</div>
+</td><td valign=bottom></td></tr></table>
+<br><font18><font color=#663300>
+
+　倉頡五代：CUPYM  <br>　　　部首：<a href='/cjdict/index.php?stype=Radical&detail=n&sword=鳥'>鳥</a> 
+<!--　部首筆畫：5-->
+　　部外筆畫：7
+<a class='view_mb'><br></a>
+　　總筆畫：<a href='/cjdict/index.php?stype=TotalStk&detail=n&sword=12'>12</a><br>
+　　　字典：<a href="https://kangxizidian.com/kxhans/𬸑" target=_new>康熙字典</a><br>
+　　統一碼：2CE11<br>
+統一碼字集：<a href='/cjdict/index.php?stype=Unicode&detail=n&sword=CJK_EE'>CJK_EE</a><br>
+統一碼字源：《<a title='GZFY-00968'>中</a>》
+<hr size=1  color=999999>
+</td>
+<tr><TD bgcolor=eeeeee  align=left valign=top class='td1'>
+
+<table border=0>
+<tr><td valign=bottom>
+<img src=/cjdict/img/t/2B91B.png width=64 border=1 style='border-color:#777777' Title='台灣：繁體漢字參考字形'> &nbsp;&nbsp; 
+<img src=/cjdict/img/g/2B91B.png width=64 border=1 style='border-color:#777777' Title='中國：簡化漢字參考字形'> &nbsp;&nbsp; 
+
+
+</td><td valign=bottom>
+<div class='view_pc'>
+<font48><font  style="font-family: 'Microsoft JhengHei',mingliu,pmingliu,mingliu-ExtB,pmingliu-ExtB,TH-Tshyn-P2,CJKExtB-G">𫤛</font></font48>&nbsp;&nbsp; 
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">𫤛</font></font46>
+</div>
+<div class='view_mb'>
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">𫤛</font></font46>
+</div>
+</td><td valign=bottom></td></tr></table>
+<br><font18><font color=#663300>
+
+　倉頡五代：CUQJ  <br>　　　部首：<a href='/cjdict/index.php?stype=Radical&detail=n&sword=儿'>儿</a> 
+<!--　部首筆畫：2-->
+　　部外筆畫：9
+<a class='view_mb'><br></a>
+　　總筆畫：<a href='/cjdict/index.php?stype=TotalStk&detail=n&sword=11'>11</a><br>
+　　　字典：<a href="https://kangxizidian.com/kxhans/𫤛" target=_new>康熙字典</a><br>
+　　統一碼：2B91B<br>
+統一碼字集：<a href='/cjdict/index.php?stype=Unicode&detail=n&sword=CJK_EE'>CJK_EE</a><br>
+統一碼字源：《<a title='GZJW-00044'>中</a>》
+<hr size=1  color=999999>
+</td>
+<tr><TD bgcolor=eeeeee  align=left valign=top class='td1'>
+
+<table border=0>
+<tr><td valign=bottom>
+<img src=/cjdict/img/t/21C1B.png width=64 border=1 style='border-color:#777777' Title='台灣：繁體漢字參考字形'> &nbsp;&nbsp; 
+<img src=/cjdict/img/g/21C1B.png width=64 border=1 style='border-color:#777777' Title='中國：簡化漢字參考字形'> &nbsp;&nbsp; 
+
+
+</td><td valign=bottom>
+<div class='view_pc'>
+<font48><font  style="font-family: 'Microsoft JhengHei',mingliu,pmingliu,mingliu-ExtB,pmingliu-ExtB,TH-Tshyn-P2,CJKExtB-G">𡰛</font></font48>&nbsp;&nbsp; 
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">𡰛</font></font46>
+</div>
+<div class='view_mb'>
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">𡰛</font></font46>
+</div>
+</td><td valign=bottom></td></tr></table>
+<br><font18><font color=#663300>
+
+　倉頡五代：CUSMT CUSIT <br>　　　部首：<a href='/cjdict/index.php?stype=Radical&detail=n&sword=尢'>尢</a> 
+<!--　部首筆畫：3-->
+　　部外筆畫：14
+<a class='view_mb'><br></a>
+　　總筆畫：<a href='/cjdict/index.php?stype=TotalStk&detail=n&sword=17'>17</a><br>
+　　　字典：<a href="https://kangxizidian.com/kxhans/𡰛" target=_new>康熙字典</a><br>
+　　統一碼：21C1B<br>
+統一碼字集：<a href='/cjdict/index.php?stype=Unicode&detail=n&sword=CJK_EB'>CJK_EB</a><br>
+統一碼字源：《<a title='GHZ-80012.24'>中</a>》
+<hr size=1  color=999999>
+</td>
+<tr><TD bgcolor=eeeeee  align=left valign=top class='td1'>
+
+<table border=0>
+<tr><td valign=bottom>
+<img src=/cjdict/img/t/21C1B.png width=64 border=1 style='border-color:#777777' Title='台灣：繁體漢字參考字形'> &nbsp;&nbsp; 
+<img src=/cjdict/img/g/21C1B.png width=64 border=1 style='border-color:#777777' Title='中國：簡化漢字參考字形'> &nbsp;&nbsp; 
+
+
+</td><td valign=bottom>
+<div class='view_pc'>
+<font48><font  style="font-family: 'Microsoft JhengHei',mingliu,pmingliu,mingliu-ExtB,pmingliu-ExtB,TH-Tshyn-P2,CJKExtB-G">𡰛</font></font48>&nbsp;&nbsp; 
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">𡰛</font></font46>
+</div>
+<div class='view_mb'>
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">𡰛</font></font46>
+</div>
+</td><td valign=bottom></td></tr></table>
+<br><font18><font color=#663300>
+
+　倉頡五代：CUSMT CUSIT <br>　　　部首：<a href='/cjdict/index.php?stype=Radical&detail=n&sword=尢'>尢</a> 
+<!--　部首筆畫：3-->
+　　部外筆畫：14
+<a class='view_mb'><br></a>
+　　總筆畫：<a href='/cjdict/index.php?stype=TotalStk&detail=n&sword=17'>17</a><br>
+　　　字典：<a href="https://kangxizidian.com/kxhans/𡰛" target=_new>康熙字典</a><br>
+　　統一碼：21C1B<br>
+統一碼字集：<a href='/cjdict/index.php?stype=Unicode&detail=n&sword=CJK_EB'>CJK_EB</a><br>
+統一碼字源：《<a title='GHZ-80012.24'>中</a>》
+<hr size=1  color=999999>
+</td>
+<tr><TD bgcolor=eeeeee  align=left valign=top class='td1'>
+
+<table border=0>
+<tr><td valign=bottom>
+<img src=/cjdict/img/t/21C09.png width=64 border=1 style='border-color:#777777' Title='台灣：繁體漢字參考字形'> &nbsp;&nbsp; 
+<img src=/cjdict/img/g/21C09.png width=64 border=1 style='border-color:#777777' Title='中國：簡化漢字參考字形'> &nbsp;&nbsp; 
+
+
+</td><td valign=bottom>
+<div class='view_pc'>
+<font48><font  style="font-family: 'Microsoft JhengHei',mingliu,pmingliu,mingliu-ExtB,pmingliu-ExtB,TH-Tshyn-P2,CJKExtB-G">𡰉</font></font48>&nbsp;&nbsp; 
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">𡰉</font></font46>
+</div>
+<div class='view_mb'>
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">𡰉</font></font46>
+</div>
+</td><td valign=bottom></td></tr></table>
+<br><font18><font color=#663300>
+
+　倉頡五代：CUTXC  <br>　　　部首：<a href='/cjdict/index.php?stype=Radical&detail=n&sword=尢'>尢</a> 
+<!--　部首筆畫：3-->
+　　部外筆畫：10
+<a class='view_mb'><br></a>
+　　總筆畫：<a href='/cjdict/index.php?stype=TotalStk&detail=n&sword=13'>13</a><br>
+　　　字典：<a href="https://kangxizidian.com/kxhans/𡰉" target=_new>康熙字典</a><br>
+　　統一碼：21C09<br>
+統一碼字集：<a href='/cjdict/index.php?stype=Unicode&detail=n&sword=CJK_EB'>CJK_EB</a><br>
+統一碼字源：《<a title='GHZ-80012.23'>中</a>》《<a title='T4-427A'>台</a>》
+<hr size=1  color=999999>
+</td>
+<tr><TD bgcolor=eeeeee  align=left valign=top class='td1'>
+
+<table border=0>
+<tr><td valign=bottom><a href="https://kangxizidian.com/kxhans/鈯" target=_new><img src=https://kangxizidian.com/kx/922F.png width=64 border=1 style='border-color:#777777' Title='康熙字體'></a> &nbsp;&nbsp; 
+<img src=/cjdict/img/t/922F.png width=64 border=1 style='border-color:#777777' Title='台灣：繁體漢字參考字形'> &nbsp;&nbsp; 
+<img src=/cjdict/img/g/922F.png width=64 border=1 style='border-color:#777777' Title='中國：簡化漢字參考字形'> &nbsp;&nbsp; 
+
+
+</td><td valign=bottom>
+<div class='view_pc'>
+<font48><font  style="font-family: 'Microsoft JhengHei',mingliu,pmingliu,mingliu-ExtB,pmingliu-ExtB,TH-Tshyn-P2,CJKExtB-G">鈯</font></font48>&nbsp;&nbsp; 
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">鈯</font></font46>
+</div>
+<div class='view_mb'>
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">鈯</font></font46>
+</div>
+</td><td valign=bottom></td></tr></table>
+<br><font18><font color=#663300>
+
+　倉頡五代：CUU  <br>　　　部首：<a href='/cjdict/index.php?stype=Radical&detail=n&sword=金'>金</a> 
+<!--　部首筆畫：8-->
+　　部外筆畫：5
+<a class='view_mb'><br></a>
+　　總筆畫：<a href='/cjdict/index.php?stype=TotalStk&detail=n&sword=13'>13</a><br>　　　拼音：<a href='/cjdict/index.php?stype=Pinyin&detail=n&sword=tú'>tú</a> <br>　　　注音：<a href='/cjdict/index.php?stype=Zhuyin&detail=n&sword=ㄊㄨˊ'>ㄊㄨˊ</a> <br>
+　　　字典：<a href="https://kangxizidian.com/kxhans/鈯" target=_new>康熙字典</a><br>
+　　統一碼：922F<br>
+統一碼字集：<a href='/cjdict/index.php?stype=Unicode&detail=n&sword=CJK'>CJK</a><br>
+統一碼字源：《<a title='G3-7577'>中</a>》《<a title='T3-452E'>台</a>》《<a title='J1-634E'>日</a>》《<a title='K2-682A'>韓</a>》《<a title='KP1-8001'>朝</a>》
+<hr size=1  color=999999>
+</td>
+<tr><TD bgcolor=eeeeee  align=left valign=top class='td1'>
+
+<table border=0>
+<tr><td valign=bottom><a href="https://kangxizidian.com/kxhans/𡜎" target=_new><img src=https://kangxizidian.com/kx/2170E.png width=64 border=1 style='border-color:#777777' Title='康熙字體'></a> &nbsp;&nbsp; 
+<img src=/cjdict/img/t/2170E.png width=64 border=1 style='border-color:#777777' Title='台灣：繁體漢字參考字形'> &nbsp;&nbsp; 
+<img src=/cjdict/img/g/2170E.png width=64 border=1 style='border-color:#777777' Title='中國：簡化漢字參考字形'> &nbsp;&nbsp; 
+
+
+</td><td valign=bottom>
+<div class='view_pc'>
+<font48><font  style="font-family: 'Microsoft JhengHei',mingliu,pmingliu,mingliu-ExtB,pmingliu-ExtB,TH-Tshyn-P2,CJKExtB-G">𡜎</font></font48>&nbsp;&nbsp; 
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">𡜎</font></font46>
+</div>
+<div class='view_mb'>
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">𡜎</font></font46>
+</div>
+</td><td valign=bottom></td></tr></table>
+<br><font18><font color=#663300>
+
+　倉頡五代：CUV  <br>　　　部首：<a href='/cjdict/index.php?stype=Radical&detail=n&sword=女'>女</a> 
+<!--　部首筆畫：3-->
+　　部外筆畫：6
+<a class='view_mb'><br></a>
+　　總筆畫：<a href='/cjdict/index.php?stype=TotalStk&detail=n&sword=9'>9</a><br>
+　　　字典：<a href="https://kangxizidian.com/kxhans/𡜎" target=_new>康熙字典</a><br>
+　　統一碼：2170E<br>
+統一碼字集：<a href='/cjdict/index.php?stype=Unicode&detail=n&sword=CJK_EB'>CJK_EB</a><br>
+統一碼字源：《<a title='GKX-0261.32'>中</a>》《<a title='T6-2F74'>台</a>》
+<hr size=1  color=999999>
+</td>
+<tr><TD bgcolor=eeeeee  align=left valign=top class='td1'>
+
+<table border=0>
+<tr><td valign=bottom>
+<img src=/cjdict/img/t/2BD51.png width=64 border=1 style='border-color:#777777' Title='台灣：繁體漢字參考字形'> &nbsp;&nbsp; 
+<img src=/cjdict/img/g/2BD51.png width=64 border=1 style='border-color:#777777' Title='中國：簡化漢字參考字形'> &nbsp;&nbsp; 
+
+
+</td><td valign=bottom>
+<div class='view_pc'>
+<font48><font  style="font-family: 'Microsoft JhengHei',mingliu,pmingliu,mingliu-ExtB,pmingliu-ExtB,TH-Tshyn-P2,CJKExtB-G">𫵑</font></font48>&nbsp;&nbsp; 
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">𫵑</font></font46>
+</div>
+<div class='view_mb'>
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">𫵑</font></font46>
+</div>
+</td><td valign=bottom></td></tr></table>
+<br><font18><font color=#663300>
+
+　倉頡五代：CUYAJ  <br>　　　部首：<a href='/cjdict/index.php?stype=Radical&detail=n&sword=尢'>尢</a> 
+<!--　部首筆畫：4-->
+　　部外筆畫：8
+<a class='view_mb'><br></a>
+　　總筆畫：<a href='/cjdict/index.php?stype=TotalStk&detail=n&sword=12'>12</a><br>
+　　　字典：<a href="https://kangxizidian.com/kxhans/𫵑" target=_new>康熙字典</a><br>
+　　統一碼：2BD51<br>
+統一碼字集：<a href='/cjdict/index.php?stype=Unicode&detail=n&sword=CJK_EE'>CJK_EE</a><br>
+統一碼字源：《<a title='GZFY-00914'>中</a>》
+<hr size=1  color=999999>
+</td>
+<tr><TD bgcolor=eeeeee  align=left valign=top class='td1'>
+
+<table border=0>
+<tr><td valign=bottom><a href="https://kangxizidian.com/kxhans/𨭅" target=_new><img src=https://kangxizidian.com/kx/28B45.png width=64 border=1 style='border-color:#777777' Title='康熙字體'></a> &nbsp;&nbsp; 
+<img src=/cjdict/img/t/28B45.png width=64 border=1 style='border-color:#777777' Title='台灣：繁體漢字參考字形'> &nbsp;&nbsp; 
+<img src=/cjdict/img/g/28B45.png width=64 border=1 style='border-color:#777777' Title='中國：簡化漢字參考字形'> &nbsp;&nbsp; 
+
+
+</td><td valign=bottom>
+<div class='view_pc'>
+<font48><font  style="font-family: 'Microsoft JhengHei',mingliu,pmingliu,mingliu-ExtB,pmingliu-ExtB,TH-Tshyn-P2,CJKExtB-G">𨭅</font></font48>&nbsp;&nbsp; 
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">𨭅</font></font46>
+</div>
+<div class='view_mb'>
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">𨭅</font></font46>
+</div>
+</td><td valign=bottom></td></tr></table>
+<br><font18><font color=#663300>
+
+　倉頡五代：CUYB  <br>　　　部首：<a href='/cjdict/index.php?stype=Radical&detail=n&sword=金'>金</a> 
+<!--　部首筆畫：8-->
+　　部外筆畫：12
+<a class='view_mb'><br></a>
+　　總筆畫：<a href='/cjdict/index.php?stype=TotalStk&detail=n&sword=20'>20</a><br>　　　拼音：<a href='/cjdict/index.php?stype=Pinyin&detail=n&sword=zhù'>zhù</a> <br>　　　注音：<a href='/cjdict/index.php?stype=Zhuyin&detail=n&sword=ㄓㄨˋ'>ㄓㄨˋ</a> <br>
+　　　字典：<a href="https://kangxizidian.com/kxhans/𨭅" target=_new>康熙字典</a><br>
+　　統一碼：28B45<br>
+統一碼字集：<a href='/cjdict/index.php?stype=Unicode&detail=n&sword=CJK_EB'>CJK_EB</a><br>
+統一碼字源：《<a title='GHZ-64256.09'>中</a>》
+<hr size=1  color=999999>
+</td>
+<tr><TD bgcolor=eeeeee  align=left valign=top class='td1'>
+
+<table border=0>
+<tr><td valign=bottom>
+<img src=/cjdict/img/t/2D8ED.png width=64 border=1 style='border-color:#777777' Title='台灣：繁體漢字參考字形'> &nbsp;&nbsp; 
+<img src=/cjdict/img/g/2D8ED.png width=64 border=1 style='border-color:#777777' Title='中國：簡化漢字參考字形'> &nbsp;&nbsp; 
+
+
+</td><td valign=bottom>
+<div class='view_pc'>
+<font48><font  style="font-family: 'Microsoft JhengHei',mingliu,pmingliu,mingliu-ExtB,pmingliu-ExtB,TH-Tshyn-P2,CJKExtB-G">𭣭</font></font48>&nbsp;&nbsp; 
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">𭣭</font></font46>
+</div>
+<div class='view_mb'>
+<font46><font  style="font-family: 'Microsoft YaHei',SimSun,SimSun-ExtB,TH-Tshyn-P2,CJKExtB-G">𭣭</font></font46>
+</div>
+</td><td valign=bottom></td></tr></table>
+<br><font18><font color=#663300>
+
+　倉頡五代：CUYE  <br>　　　部首：<a href='/cjdict/index.php?stype=Radical&detail=n&sword=攴'>攴</a> 
+<!--　部首筆畫：4-->
+　　部外筆畫：6
+<a class='view_mb'><br></a>
+　　總筆畫：<a href='/cjdict/index.php?stype=TotalStk&detail=n&sword=10'>10</a><br>
+　　　字典：<a href="https://kangxizidian.com/kxhans/𭣭" target=_new>康熙字典</a><br>
+　　統一碼：2D8ED<br>
+統一碼字集：<a href='/cjdict/index.php?stype=Unicode&detail=n&sword=CJK_EF'>CJK_EF</a><br>
+統一碼字源：《<a title='GCY-1482.00'>中</a>》
+<hr size=1  color=999999>
+</td>
+</tr></table></td></tr></table>
+
+<center>
+
+
+
+
+<p>
+<table border=0 bgcolor=96C7FC CELLSPACING=1 CELLPADDING=2  class='td1'>
+<tr bgcolor=dbedfe><td align=right><font18>
+<A HREF=/cjdict/index.php?stype=Word&sword=C*&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&Page=33>完整版</A> | 
+<A HREF=/cjdict/index.php?stype=Word&sword=C*&detail=n&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&Page=33>字頭版</A>&nbsp;&nbsp;資料數 : <Font color=Red> 1504 </font>頁數: <Font color=Red>33/38</font><br>
+<A HREF=/cjdict/index.php?stype=Word&sword=C*&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&Page=1>第一頁</A> | <A HREF=/cjdict/index.php?stype=Word&sword=C*&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&Page=32>上一頁</A> | <A HREF=/cjdict/index.php?stype=Word&sword=C*&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&Page=34>下一頁</A> | <A HREF=/cjdict/index.php?stype=Word&sword=C*&detail=y&sB5=&sGF=&sG=y&sT=&sH=&sM=&sJ=&sK=&sKP=&sV=&Page=38>最後頁</A>
+
+
+
+
+</tr></td></table></center>
+<p>
+
+
+
+﻿<center>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- chinesecj.com_w1 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1984335192862106"
+     data-ad-slot="6305013076"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+</center>
+<p>
+	  <table BORDER=0 CELLSPACING=0 CELLPADDING=0 COLS=1 WIDTH=100% BGCOLOR=c0c0c0 ><tr><td><table BORDER=0 CELLSPACING=0 CELLPADDING=0 HEIGHT=1 ><tr><td></td></tr></table></td></tr></table>
+	  <table BORDER=0 CELLSPACING=0 CELLPADDING=0 COLS=1 WIDTH=100% BGCOLOR=999999 ><tr><td><table BORDER=0 CELLSPACING=0 CELLPADDING=0 HEIGHT=1 ><tr><td></td></tr></table></td></tr></table>
+	  <table BORDER=0 CELLSPACING=0 CELLPADDING=0 COLS=1 WIDTH=100% BGCOLOR=000000 ><tr><td><table BORDER=0 CELLSPACING=0 CELLPADDING=0 HEIGHT=1 ><tr><td></td></tr></table></td></tr></table>
+
+  <table BORDER=0 CELLSPACING=0 CELLPADDING=0 COLS=1 WIDTH=100% HEIGHT=25 BGCOLOR=#DBEDFE>
+  <tr><td align=center><font14><font color=red>
+倉頡之友 ．自學倉頡輸入法 &nbsp;&nbsp;
+1997 - 2021 &nbsp;&nbsp;
+<a class='view_mb'><br></a>
+馬來西亞 &nbsp;&nbsp;
+<a href=https://www.chinesecj.com>https://www.chinesecj.com</a>
+<br>
+姐妹站：<a href=https://www.kangxizidian.com>康熙字典網上版</a>
+<br><p>
+
+</td></tr></table>
+</html>
