@@ -28,12 +28,5 @@ print(pycangjie.convert(text))
 print(pycangjie.gen_table(pycangjie.convert(text)))
 ```
 
-## JSON
-```javascript
-$.post("http://cangjie.xxxx.kozow.com", {
-    op: "convert",
-    w: "倉頡API"
-}, function(res){
-    console.log(res);
-});
-```
+## Web
+Try it out [here](http://cangjie.xxxx.kozow.com/).
