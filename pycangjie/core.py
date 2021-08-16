@@ -6,7 +6,8 @@ import json
 from lxml import html
 
 
-src_dir = r"src"
+base = os.path.dirname(os.path.abspath(__file__))
+src_dir = os.path.join(base, r"src")
 
 
 def gen_params(sword, page):
