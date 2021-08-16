@@ -104,8 +104,9 @@ def convert(strings):
     return result
 
 
-def printTable(result, row=5):
-    def _printTable(result):
+def gen_table(result, row=5):
+    TABLE = []
+    def _gen_table(result):
         from unicodedata import east_asian_width
         table = []
         def _len(s):
@@ -133,8 +134,9 @@ def printTable(result, row=5):
                     b = column
                     c = " " * (column_width[i] - __len)
                 cptd.append(" {}{}{} ".format(a, b, c))
-            print("|".join(cptd))
+            TABLE.append("|".join(cptd))
     for i in range(0, row-1):
-        _printTable([result[0][i*row:i*row+row], result[1][i*row:i*row+row]])
-        print()
+        _gen_table([result[0][i*row:i*row+row], result[1][i*row:i*row+row]])
+        TABLE.append("")
+    return "\n".join(TABLE)
 

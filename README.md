@@ -15,7 +15,7 @@
 ```
 pycangjie
 |---- convert()
-'---- printTable()
+'---- gen_table()
 ```
 
 # Example
@@ -25,5 +25,5 @@ pycangjie
 import pycangjie
 text = "倉頡API"
 print(pycangjie.convert(text))
-print(pycangjie.printTable(pycangjie.convert(text)))
+print(pycangjie.gen_table(pycangjie.convert(text)))
 ```
