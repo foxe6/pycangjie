@@ -85,12 +85,12 @@ def parse():
             tw.add(job(a, d))
     tw.wait()
     print(cjs)
-    open("pkg_data.json", "wb").write(json.dumps(cjs).encode())
+    open(os.path.join(base, "pkg_data.json"), "wb").write(json.dumps(cjs).encode())
 
 
 def convert(strings):
     from string import printable
-    cjs = json.loads(open("pkg_data.json", "rb").read().decode())
+    cjs = json.loads(open(os.path.join(base, "pkg_data.json"), "rb").read().decode())
     result = [[],[]]
     for character in strings:
         cj = ""
