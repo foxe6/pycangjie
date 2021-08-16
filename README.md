@@ -13,7 +13,7 @@
 # Hierarchy
 
 ```
-pyCangJie
+pycangjie
 |---- convert()
 '---- printTable()
 ```
@@ -22,8 +22,8 @@ pyCangJie
 
 ## python
 ```python
-import pyCangJie
+import pycangjie
 text = "倉頡API"
-print(pyCangJie.convert(text))
-print(pyCangJie.printTable(pyCangJie.convert(text)))
+print(pycangjie.convert(text))
+print(pycangjie.printTable(pycangjie.convert(text)))
 ```
