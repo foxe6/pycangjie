@@ -106,6 +106,7 @@ def convert(strings):
 
 def gen_table(result, row=5):
     TABLE = []
+    import math
     def _gen_table(result):
         from unicodedata import east_asian_width
         table = []
@@ -135,7 +136,7 @@ def gen_table(result, row=5):
                     c = " " * (column_width[i] - __len)
                 cptd.append(" {}{}{} ".format(a, b, c))
             TABLE.append("|".join(cptd))
-    for i in range(0, row-1 if len(result[0]) > row else len(result[0])):
+    for i in range(0, int(math.ceil(len(result[0])/row))):
         _gen_table([result[0][i*row:i*row+row], result[1][i*row:i*row+row]])
         TABLE.append("")
     return "\n".join(TABLE)
